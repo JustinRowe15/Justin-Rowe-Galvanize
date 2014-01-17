@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:scaleType="center"
+    android:orientation="vertical"
+    tools:context=".GalvanizeFragment" >
+
+    <RelativeLayout
+        android:id="@+id/homeFirstBlock"
+        android:layout_width="380dp"
+        android:layout_height="210dp"
+        android:layout_margin="10dp"
+        android:paddingTop="0dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingBottom="8dip"
+        android:background="@drawable/rounded_corner" >
+        
+        <TextView
+            android:id="@+id/welcomeTextView" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="#E28C05"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <View
+            android:id="@+id/dividerLineFirstBlock"
+            android:layout_below="@+id/welcomeTextView"
+    		android:layout_width="match_parent"
+    		android:layout_height="1dp"
+    		android:layout_marginTop="2dp"
+    		android:layout_marginBottom="8dp"
+   			android:background="#FFFFFF"/>
+        
+        <TextView
+            android:id="@+id/homeFirstBlockTextView"
+            android:layout_below="@+id/dividerLineFirstBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homeFirstBlock"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light" />
+       
+     </RelativeLayout>
+     
+    <RelativeLayout
+        android:id="@+id/homeSecondBlock"
+        android:layout_width="380dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/homeFirstBlock"
+        android:paddingTop="0dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingBottom="8dip"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="sans-serif-light" >
+        
+        <TextView
+            android:id="@+id/twitterHandleTextView" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twitterHandle"
+            android:textColor="#E28C05"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <View
+            android:id="@+id/dividerLineSecondBlock"
+            android:layout_below="@+id/twitterHandleTextView"
+    		android:layout_width="match_parent"
+    		android:layout_height="1dp"
+    		android:layout_marginTop="4dp"
+    		android:layout_marginBottom="8dp"
+   			android:background="#FFFFFF"/>
+       
+     </RelativeLayout>
+     
+    <RelativeLayout
+        android:id="@+id/homeThirdBlock"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/homeSecondBlock"
+        android:paddingTop="0dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingBottom="0dip"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="sans-serif-light" >
+        
+        <TextView
+            android:id="@+id/followUsTextView" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/followUs"
+            android:textColor="#E28C05"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <ImageView
+            android:id="@+id/facebookIconImageView"
+            android:layout_toRightOf="@+id/followUsTextView"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_gravity="center_vertical"
+        	android:layout_centerInParent="true"
+        	android:src="@drawable/facebook" />
+        
+        <ImageView
+            android:id="@+id/twitterIconImageView"
+            android:layout_toRightOf="@+id/facebookIconImageView"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_gravity="center_vertical"
+        	android:layout_centerInParent="true"
+        	android:src="@drawable/twitter" />
+        
+        <ImageView
+            android:id="@+id/linkedInIconImageView"
+            android:layout_toRightOf="@+id/twitterIconImageView"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_gravity="center_vertical"
+        	android:layout_centerInParent="true"
+        	android:src="@drawable/linkedin" />
+        
+        <ImageView
+            android:id="@+id/googlePlusIconImageView"
+            android:layout_toRightOf="@+id/linkedInIconImageView"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_gravity="center_vertical"
+        	android:layout_centerInParent="true"
+        	android:src="@drawable/googleplus" />
+       
+     </RelativeLayout>
+
+</RelativeLayout>

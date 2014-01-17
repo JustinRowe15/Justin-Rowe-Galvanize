@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:scaleType="center"
+    android:orientation="vertical">
+    
+	<RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	tools:context=".GalvanizeFragment" >
+    	
+	    <RelativeLayout
+        	android:id="@+id/curriculumFirstBlock"
+        	android:layout_width="380dp"
+        	android:layout_height="232dp"
+        	android:layout_margin="10dp"
+        	android:paddingTop="0dip"
+        	android:paddingLeft="8dip"
+        	android:paddingRight="8dip"
+        	android:paddingBottom="8dip"
+        	android:background="@drawable/rounded_corner" >
+        
+        	<TextView
+            	android:id="@+id/learnTextView" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/learn"
+            	android:textColor="#E28C05"
+            	android:textSize="28sp"
+            	android:fontFamily="sans-serif-light" />
+        
+        	<View
+            	android:id="@+id/dividerLineFirstBlock"
+            	android:layout_below="@+id/learnTextView"
+    			android:layout_width="match_parent"
+    			android:layout_height="1dp"
+    			android:layout_marginTop="2dp"
+    			android:layout_marginBottom="8dp"
+   				android:background="#FFFFFF"/>
+        
+        	<TextView
+           		android:id="@+id/curriculumFirstBlockTextView"
+           		android:layout_below="@+id/dividerLineFirstBlock"
+           		android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+           		android:text="@string/curriculumFirstBlock"
+           		android:textColor="#FFFFFF"
+           		android:textSize="16sp"
+           		android:fontFamily="sans-serif-light" />
+       
+     	</RelativeLayout>
+     	
+	    <RelativeLayout
+        	android:id="@+id/curriculumSecondBlock"
+        	android:layout_below="@+id/curriculumFirstBlock"
+        	android:layout_width="380dp"
+        	android:layout_height="344dp"
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_marginBottom="10dp"
+        	android:paddingTop="0dip"
+        	android:paddingLeft="8dip"
+        	android:paddingRight="0dip"
+        	android:paddingBottom="0dip"
+        	android:background="@drawable/rounded_corner" >
+        	
+	        <TextView
+            	android:id="@+id/curriculumTextView" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="2dp"
+            	android:text="@string/curriculum"
+            	android:textColor="#E28C05"
+            	android:textSize="24sp"
+            	android:fontFamily="sans-serif-light" />
+	        
+	        <RelativeLayout
+        		android:id="@+id/curriculumSecondBlockInnerCell1"
+        		android:layout_below="@+id/curriculumTextView"
+        		android:layout_width="190dp"
+        		android:layout_height="302dp"
+        		android:layout_marginTop="-10dp"
+        		android:layout_marginRight="0dp"
+        		android:paddingTop="8dip"
+        		android:paddingLeft="0dip"
+        		android:paddingRight="8dip"
+        		android:paddingBottom="0dip" >
+         
+	            <TextView
+           			android:id="@+id/curriculumFrontEndTechnologiesTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="8dp"
+           			android:text="@string/frontEndTechnologies"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/curriculumBackEndTechnologiesTextView"
+           			android:layout_below="@+id/curriculumFrontEndTechnologiesTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="8dp"
+           			android:text="@string/backEndTechnologies"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/curriculumToolsAndSkillsTextView"
+           			android:layout_below="@+id/curriculumBackEndTechnologiesTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="8dp"
+           			android:text="@string/toolsAndSkills"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/curriculumCourseLengthTextView"
+           			android:layout_below="@+id/curriculumToolsAndSkillsTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="8dp"
+           			android:text="@string/courseLength"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+        	
+        	</RelativeLayout>
+        	
+	        <RelativeLayout
+        		android:id="@+id/curriculumSecondBlockInnerCell2"
+        		android:layout_toRightOf="@+id/curriculumSecondBlockInnerCell1"
+        		android:layout_width="190dp"
+        		android:layout_height="342dp"
+        		android:layout_marginTop="10dp"
+        		android:layout_marginRight="8dp"
+        		android:layout_marginBottom="8dp"
+        		android:orientation="vertical" >
+	            
+	            <ImageView
+    	    		android:id="@+id/studentsImageView1"
+            		android:adjustViewBounds="true"
+            		android:scaleType="fitXY"
+    				android:layout_marginBottom="8dp"
+    				android:layout_width="fill_parent"
+   					android:layout_height="wrap_content"
+    				android:src="@drawable/students1"/>
+	            
+	            <ImageView
+    	    		android:id="@+id/studentsImageView2"
+    	    		android:layout_below="@+id/studentsImageView1"
+    	    		android:adjustViewBounds="true"
+            		android:scaleType="fitXY"
+    				android:layout_marginBottom="8dp"
+    				android:layout_width="fill_parent"
+   					android:layout_height="wrap_content"
+    				android:src="@drawable/students2"/>
+	            
+	            <ImageView
+    	    		android:id="@+id/studentsImageView3"
+    	    		android:layout_below="@+id/studentsImageView2"
+    	    		android:adjustViewBounds="true"
+            		android:scaleType="fitXY"
+    				android:layout_width="fill_parent"
+   					android:layout_height="wrap_content"
+    				android:src="@drawable/students3"/>
+	            
+	        </RelativeLayout>
+       
+     	</RelativeLayout>
+    	
+	</RelativeLayout>
+   
+</ScrollView>

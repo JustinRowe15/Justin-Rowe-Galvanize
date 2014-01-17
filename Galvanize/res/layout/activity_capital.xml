@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:scaleType="center"
+    android:orientation="vertical">
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GalvanizeFragment" >
+    
+    <RelativeLayout
+        android:id="@+id/capitalFirstBlock"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        android:paddingTop="0dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingBottom="8dip"
+        android:background="@drawable/rounded_corner" >
+        
+        <TextView
+            android:id="@+id/investTextView" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invest"
+            android:textColor="#E28C05"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <View
+            android:id="@+id/dividerLineFirstBlock"
+            android:layout_below="@+id/investTextView"
+    		android:layout_width="match_parent"
+    		android:layout_height="1dp"
+    		android:layout_marginTop="2dp"
+    		android:layout_marginBottom="8dp"
+   			android:background="#FFFFFF"/>
+        
+        <TextView
+            android:id="@+id/investFirstBlockTextView"
+            android:layout_below="@+id/dividerLineFirstBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/capitalFirstBlock"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light" />
+       
+     </RelativeLayout>
+     
+     <RelativeLayout
+        android:id="@+id/capitalSecondBlock"
+        android:layout_width="380dp"
+        android:layout_height="536dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/capitalFirstBlock"
+        android:paddingTop="0dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingBottom="8dip"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="sans-serif-light" >
+        
+        <TextView
+            android:id="@+id/portfolioTextView" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/portfolio"
+            android:textColor="#E28C05"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <View
+            android:id="@+id/dividerLineSecondBlock"
+            android:layout_below="@+id/portfolioTextView"
+    		android:layout_width="match_parent"
+    		android:layout_height="1dp"
+    		android:layout_marginTop="2dp"
+    		android:layout_marginBottom="4dp"
+   			android:background="#FFFFFF"/>
+        
+        <TextView
+            android:id="@+id/activeJunkyTitleTextView" 
+            android:layout_below="@+id/dividerLineSecondBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/active_junky"
+            android:textColor="#E28C05"
+            android:textSize="21sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/activeJunkyParagraphTextView"
+            android:layout_below="@+id/activeJunkyTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/activeJunkyBlock"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/keenIOTitleTextView" 
+            android:layout_below="@+id/activeJunkyParagraphTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/keen_io"
+            android:textColor="#E28C05"
+            android:textSize="21sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/keenIOParagraphTextView"
+            android:layout_below="@+id/keenIOTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/keenIOBlock"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/dabbleTitleTextView" 
+            android:layout_below="@+id/keenIOParagraphTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dabble"
+            android:textColor="#E28C05"
+            android:textSize="21sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/dabbleParagraphTextView"
+            android:layout_below="@+id/dabbleTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/dabbleBlock"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/pangeaOrganicsTitleTextView" 
+            android:layout_below="@+id/dabbleParagraphTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pangea_organics"
+            android:textColor="#E28C05"
+            android:textSize="21sp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/pangeaOrganicsParagraphTextView"
+            android:layout_below="@+id/pangeaOrganicsTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/pangeaOrganicsBlock"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light" />
+              
+     </RelativeLayout>
+    
+</RelativeLayout>
+
+</ScrollView>

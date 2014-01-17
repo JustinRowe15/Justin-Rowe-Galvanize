@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:scaleType="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	tools:context=".GalvanizeFragment" >
+    	
+	    <RelativeLayout
+        	android:id="@+id/theTeamFirstBlock"
+        	android:layout_width="380dp"
+        	android:layout_height="508dp"
+        	android:layout_margin="10dp"
+        	android:paddingTop="0dip"
+        	android:paddingLeft="8dip"
+        	android:paddingRight="8dip"
+        	android:background="@drawable/rounded_corner" >
+        
+        	<TextView
+            	android:id="@+id/teamTextView" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/team"
+            	android:textColor="#E28C05"
+            	android:textSize="28sp"
+            	android:fontFamily="sans-serif-light" />
+        
+        	<View
+            	android:id="@+id/dividerLineFirstBlock"
+            	android:layout_below="@+id/teamTextView"
+    			android:layout_width="match_parent"
+    			android:layout_height="1dp"
+    			android:layout_marginTop="2dp"
+    			android:layout_marginBottom="8dp"
+   				android:background="#FFFFFF"/>
+        	
+        	<RelativeLayout
+        		android:id="@+id/meetTheTeamBlockInnerCell1"
+        		android:layout_below="@+id/dividerLineFirstBlock"
+        		android:layout_width="190dp"
+        		android:layout_height="490dp"
+        		android:layout_marginTop="-10dp"
+        		android:layout_marginRight="0dp"
+        		android:paddingTop="8dip"
+        		android:paddingLeft="0dip"
+        		android:paddingRight="8dip"
+        		android:paddingBottom="0dip" >
+         
+	            <TextView
+           			android:id="@+id/jimDetersTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="0dp"
+           			android:text="@string/jim"
+           			android:textColor="#FFFFFF"
+           			android:textSize="20sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/jimFounderTextView"
+           			android:layout_below="@+id/jimDetersTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="10dp"
+           			android:text="@string/founder"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/jimTwitterTextView"
+           			android:layout_below="@+id/jimFounderTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="14dp"
+           			android:text="@string/yodeets"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/lawrenceMandesTextView"
+           			android:layout_below="@+id/jimTwitterTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="0dp"
+           			android:text="@string/lawrence"
+           			android:textColor="#FFFFFF"
+           			android:textSize="20sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/lawrenceFounderTextView"
+           			android:layout_below="@+id/lawrenceMandesTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="10dp"
+           			android:text="@string/founder1"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/lawrenceTwitterTextView"
+           			android:layout_below="@+id/lawrenceFounderTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="14dp"
+           			android:text="@string/ldmandes"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/chrisOnanTextView"
+           			android:layout_below="@+id/lawrenceTwitterTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="0dp"
+           			android:text="@string/chris"
+           			android:textColor="#FFFFFF"
+           			android:textSize="20sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/chrisFounderTextView"
+           			android:layout_below="@+id/chrisOnanTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="10dp"
+           			android:text="@string/founder2"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/chrisTwitterTextView"
+           			android:layout_below="@+id/chrisFounderTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="14dp"
+           			android:text="@string/chrisonan"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/merylMcDonaldTextView"
+           			android:layout_below="@+id/chrisTwitterTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="0dp"
+           			android:text="@string/meryl"
+           			android:textColor="#FFFFFF"
+           			android:textSize="20sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/merylFounderTextView"
+           			android:layout_below="@+id/merylMcDonaldTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="10dp"
+           			android:text="@string/community_director"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+	            
+	            <TextView
+           			android:id="@+id/merylTwitterTextView"
+           			android:layout_below="@+id/merylFounderTextView"
+           			android:layout_width="wrap_content"
+           			android:layout_height="wrap_content"
+           			android:layout_marginBottom="10dp"
+           			android:text="@string/wheresmer"
+           			android:textColor="#FFFFFF"
+           			android:textSize="16sp"
+           			android:fontFamily="sans-serif-light" />
+        	
+        	</RelativeLayout>
+        	
+        	<RelativeLayout
+        		android:id="@+id/meetTheTeamBlockInnerCell2"
+        		android:layout_below="@+id/dividerLineFirstBlock"
+        		android:layout_toRightOf="@+id/meetTheTeamBlockInnerCell1"
+        		android:layout_width="190dp"
+        		android:layout_height="490dp"
+        		android:layout_marginTop="4dp"
+        		android:layout_marginRight="0dp"
+        		android:layout_marginBottom="8dp"
+        		android:orientation="vertical" >
+	            
+	            <ImageView
+    	    		android:id="@+id/jimDeterImageView"
+            		android:adjustViewBounds="true"
+            		android:scaleType="fitXY"
+    				android:layout_marginBottom="8dp"
+    				android:layout_width="fill_parent"
+   					android:layout_height="wrap_content"
+    				android:src="@drawable/jim"/>
+	            
+	            <ImageView
+    	    		android:id="@+id/lawrenceMandesImageView"
+    	    		android:layout_below="@+id/jimDeterImageView"
+    	    		android:adjustViewBounds="true"
+            		android:scaleType="fitXY"
+    				android:layout_marginBottom="8dp"
+    				android:layout_width="fill_parent"
+   					android:layout_height="wrap_content"
+    				android:src="@drawable/lawrence"/>
+	            
+	            <ImageView
+    	    		android:id="@+id/chrisOnanImageView"
+    	    		android:layout_below="@+id/lawrenceMandesImageView"
+    	    		android:adjustViewBounds="true"
+            		android:scaleType="fitXY"
+            		android:layout_marginBottom="8dp"
+    				android:layout_width="fill_parent"
+   					android:layout_height="wrap_content"
+    				android:src="@drawable/chris"/>
+	            
+	            <ImageView
+    	    		android:id="@+id/merylMcDonaldImageView"
+    	    		android:layout_below="@+id/chrisOnanImageView"
+    	    		android:adjustViewBounds="true"
+            		android:scaleType="fitXY"
+    				android:layout_width="fill_parent"
+   					android:layout_height="wrap_content"
+    				android:src="@drawable/meryl"/>
+	            
+	        </RelativeLayout>
+       
+     	</RelativeLayout>
+     	
+	</RelativeLayout>    
+
+</ScrollView>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Galvanize</string>
+    <string name="action_settings">About The Developer</string>
+    
+    <!-- Navigation Drawer Strings -->
+    
+    <string-array name="navigation_drawer_items">
+        <item>Home</item>
+        <item>Capital</item>
+        <item>Community</item>
+        <item>Curriculum</item>
+        <item>The Space</item>
+        <item>Meet The Team</item>
+        <item>Contact Us</item>
+        <item>Locate Us</item>
+    </string-array>
+    
+    <!-- Navigation Drawer List Icons -->
+   
+    <array name="navigation_drawer_icons">
+        <item>@drawable/ic_action_home</item>
+        <item>@drawable/ic_action_line_chart</item>
+        <item>@drawable/ic_action_armchair</item>
+        <item>@drawable/ic_action_book</item>
+        <item>@drawable/ic_action_map</item>
+        <item>@drawable/ic_action_users</item>
+        <item>@drawable/ic_action_signal</item>
+        <item>@drawable/ic_action_document</item>
+    </array>
+     
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    <!-- Home Activity Strings -->
+    <string name="welcome">Welcome.</string>
+    <string name="homeFirstBlock">
+        <![CDATA[<p>Galvanize creates an “<font color=#E28C05>innovation ecosystem</font>” 
+        designed to give entrepreneurs and innovators the best chance of success at the start of their
+        next (or first) big thing.  Through the three pillars of <font color=#E28C05>Capital</font>,
+        <font color=#E28C05>Community</font>, and <font color=#E28C05>Curriculum</font>, 
+        Galvanize builds a community greater than the sum of its parts to spark disruptive ideas and 
+        breakout companies.</p> ]]></string>
+    <string name="twitterHandle">\@galvanize</string>
+    <string name="followUs">Follow Us.</string>
+    
+    <!-- Capital Activity Strings -->
+    <string name="invest">INVEST.</string>
+    <string name="capitalFirstBlock">We invest in visionary early-stage companies. Galvanize
+        Ventures makes investments in disruptive, early-stage companies, often in the digital
+        space.</string>
+    <string name="portfolio">PORTFOLIO.</string>
+    <string name="active_junky">Active Junky.</string>
+    <string name="activeJunkyBlock">Get your gear.  Feed your addiction.  Active Junky is a 
+        price comparison and cash back shopping site for outdoor gear and apparel.  We provide 
+        cash back, the best discounts, best price, best coupons and promo codes at over
+        100 retailers.</string>
+    <string name="keen_io">Keen IO.</string>
+    <string name="keenIOBlock">Keen IO is a fully managed cloud API that lets developers build
+        complex, hyper-custom, large-scale analytics and data science features directly into
+        their web, mobile, or Internet of Things applications.</string>
+    <string name="dabble">Dabble.</string>
+    <string name="dabbleBlock">Dabble lets you discover, teach, or host one-time, affordable
+        classes.  Pursue your interests &amp; meet new people without a big commitment.</string>
+    <string name="pangea_organics">Pangea Organics.</string>
+    <string name="pangeaOrganicsBlock">Therapeutic for both mind &amp; body, our products are for all 
+        kinds of people &amp; skin. Always nurturing, handcrafted, cruelty-free, organic &amp; fair 
+        trade.</string>
+     
+    <!-- Community Activity Strings -->
+    <string name="community">COMMUNITY.</string>
+    <string name="communityFirstBlock">The Galvanize 1.0 building serves as a container for our innovation
+        community- digital innovators, breakout startups, Honorary Members, corporate “intrapreneurs,” and
+        others. We believe that collaboration is the new competition (thanks Bogusky!) and that innovation
+        works much like neurons in the brain- sparking insights across nodes and synapses.</string>
+    <string name="vision">VISION.</string>
+    <string name="communitySecondBlock">Check out the vision for Galvanize and you\'ll see that we only
+        think and dream big.</string>
+    <string name="honorary">HONORARY MEMBERS.</string>
+    <string name="communityThirdBlock">These outstanding community builders are leading the next generation
+        of companies coming through Galvanize.</string>
+    <string name="luke_beatty"><![CDATA[<p><font color=#E28C05>Luke Beatty</font> - Digital Media Exec, 
+        EIR Techstars</p> ]]></string>
+    <string name="david_cohen"><![CDATA[<p><font color=#E28C05>David Cohen</font> - Founder, CEO, 
+        Techstars</p> ]]></string>
+    <string name="andre_durand"><![CDATA[<p><font color=#E28C05>Andre Durand</font> - Founder, Chairman, CEP 
+        of Ping Identity</p> ]]></string> 
+    <string name="perry_evans"><![CDATA[<p><font color=#E28C05>Perry Evans</font> - CEO and Founder, 
+        Closely</p> ]]></string> 
+    <string name="brad_feld"><![CDATA[<p><font color=#E28C05>Brad Feld</font> - Managing Director, 
+        Foundry Group</p> ]]></string>
+    <string name="anthony_franco"><![CDATA[<p><font color=#E28C05>Anthony Franco</font> - President and Founder, 
+        Effective UI</p> ]]></string>
+    <string name="jim_franklin"><![CDATA[<p><font color=#E28C05>Jim Franklin</font> - CEO, Sendgrid</p> ]]></string> 
+    <string name="brent_handler"><![CDATA[<p><font color=#E28C05>Brent Handler</font> - CEO and Founder, 
+        Inspirato</p> ]]></string>
+    <string name="shayne_higdon"><![CDATA[<p><font color=#E28C05>Shayne Higdon</font> - President and CEO, 
+        Symplified</p> ]]></string>
+    <string name="tom_higley"><![CDATA[<p><font color=#E28C05>Tom Higley</font> - CEO of Vokl, 
+        Techstars Mentor</p> ]]></string>
+    <string name="mark_hopkins"><![CDATA[<p><font color=#E28C05>Mark Hopkins</font> - Founder, Crescendo 
+        Capital Partners</p> ]]></string> 
+    <string name="jb_holston"><![CDATA[<p><font color=#E28C05>JB Holston</font> - Chairman of the Board, 
+        Newsgator</p> ]]></string> 
+    <string name="bart_lorang"><![CDATA[<p><font color=#E28C05>Bart Lorang</font> - Co-Founder and CEO, 
+        FullContact</p> ]]></string>
+    <string name="jon_nordmark"><![CDATA[<p><font color=#E28C05>John Nordmark</font> - Founding Partner, 
+        Iterate Studio</p> ]]></string>
+    <string name="john_raeder"><![CDATA[<p><font color=#E28C05>John Raeder</font> - Co-Founder and Chairman,
+        Solv</p> ]]></string> 
+    <string name="nancy_phillips"><![CDATA[<p><font color=#E28C05>Nancy Phillips</font> - Co-Founder and CEO, 
+        ViaWest</p> ]]></string>
+    <string name="pete_hudson"><![CDATA[<p><font color=#E28C05>Pete Hudson, M.D.</font> - Co-Founder and CEO, 
+        iTriage</p> ]]></string>
+    <string name="mark_auble"><![CDATA[<p><font color=#E28C05>Mark Auble</font> - Co-Founder, 
+        PrimeStar Solar</p> ]]></string> 
+    <string name="greg_byles"><![CDATA[<p><font color=#E28C05>Greg Byles</font> - CEO, GTRI</p> ]]></string> 
+    <string name="scott_chasin"><![CDATA[<p><font color=#E28C05>Scott Chasin</font> - CTO, McAfee</p> ]]></string>
+    <string name="steve_halstadt"><![CDATA[<p><font color=#E28C05>Steve Halstadt</font> - Co-Founder, 
+        Centennial Ventures</p> ]]></string>
+    <string name="joseph_zell"><![CDATA[<p><font color=#E28C05>Joseph Zell</font> - General Partner,
+        Grotech Ventures</p> ]]></string> 
+    <string name="jason_keller"><![CDATA[<p><font color=#E28C05>Jason Keller</font> - COO, 
+        WellTok</p> ]]></string>
+        
+    <!-- Curriculum Activity Strings -->
+    <string name="learn">LEARN.</string>
+    <string name="curriculumFirstBlock"><![CDATA[<p>Nothing is more powerful than to have an idea- and the means and skills to build 
+        it. gSchool offers programs and classes that are directly applicable to startups and innovators, and develops 
+        talent that is in critical need by emerging digital startups. Our first program, a six-month intensive Ruby on
+         Rails program, launched in January 2013. See what we\'re up to now by visiting <font color=#E28C05>www.gschool.it</font>.</p> ]]></string>
+    <string name="curriculum">CURRICULUM.</string>
+    <string name="frontEndTechnologies">Front End Technologies: CSS, HTML5, Javascript.</string>
+    <string name="backEndTechnologies">Back End Technologies: Ruby, Rails and SQL.</string>
+    <string name="toolsAndSkills">Tools and Skills: Source control, test driven development, pair programming, deployment scaling
+        , presentations, leading group discussions.</string>
+    <string name="courseLength">Course Length: 24 weeks.</string>
+    
+    <!-- The Space Activity Strings -->
+    <string name="accelerate">ACCELERATE.</string>
+    <string name="theSpaceFirstBlock">This building is specifically designed to accommodate each stage of a company, and is shaped to 
+        the continuum of a start-up\'s development. From one person with an idea germinating in the community space, to small teams of 
+        2 – 4 in reserved desks, to companies gaining momentum in branded suites growing from 6 to about 30 employees - Galvanize accelerates 
+        innovation through community.</string>
+    <string name="gather">GATHER.</string>
+    <string name="gatherDescription">Full service cafe inside Galvanize.</string>
+    <string name="atrium">THE ATRIUM.</string>
+    <string name="atriumDescription">Hot seats and community space.</string>
+    <string name="gSuites">G SUITES.</string>
+    <string name="gSuitesDescription">Private space in the community.</string>
+    
+    <string name="seat">Seat</string>
+    <string name="station">Station</string>
+    <string name="suite">Suite</string>
+    <string name="furnished"><![CDATA[<p><b>Fully Furnished</b>  (Smart workplace furniture powered by Knoll)</p> ]]></string>
+    <string name="nourish"><![CDATA[<p><b>Nourish &amp; Caffeinate</b> (w/Ninety Plus provided coffee)</p> ]]></string>
+    <string name="unwind"><![CDATA[<p><b>Unwind</b> (No-Excuses Conference Room, i.e., Gym)</p> ]]></string>
+    <string name="signage"><![CDATA[<p><b>Company Signage</b></p> ]]></string>
+    <string name="digital_signage">Digital Only</string>
+    <string name="interior_signage">Digital &amp; Interior</string>
+    <string name="exterior_signage">Digital, Interior &amp; Exterior</string>
+    <string name="connect"><![CDATA[<p><b>Connect</b></p> ]]></string>
+    <string name="shared_wireless">Shared Wireless Only</string>
+    <string name="shared_wired">Shared Wired &amp; Wireless</string>
+    <string name="private_wired">Private Wired &amp; Wireless</string>
+    <string name="phone"><![CDATA[<p><b>Phone Access.</b> (VOIP Telephony Available)</p> ]]></string>
+    <string name="conference_room">Conference Room Only</string>
+    <string name="rentable">Rent-able Desk VOIP Phones, Conference Room Phones</string>
+    <string name="reserved"><![CDATA[<p><b>Reserved Desks</b></p> ]]></string>
+    <string name="cabinet"><![CDATA[<p><b>Locking Cabinet &amp; Drawer Furniture</b></p> ]]></string>
+    <string name="access"><![CDATA[<p><b>24 Hour Access</b></p> ]]></string>
+    <string name="scalable_space"><![CDATA[<p><b>Scalable and Customizable Space</b></p> ]]></string>
+    <string name="limited_customization">Limited Custom Space</string>
+    <string name="lockable_suite"><![CDATA[<p><b>Lockable Suite with Signage</b></p> ]]></string>
+    <string name="reservation_preference"><![CDATA[<p><b>Shared Space Reservation Preference</b></p> ]]></string>
+    <string name="pricing"><![CDATA[<p><b>Pricing</b></p>]]></string>
+    <string name="first_price">$299/month</string>
+    <string name="second_price">$449/month</string>
+    <string name="please_inquire">Please Inquire</string>
+    
+    <!-- The Team Activity Strings -->
+    <string name="team">TEAM.</string>
+    <string name="jim">Jim Deters</string>
+    <string name="founder">Founder, Managing Director &amp; CEO</string>
+    <string name="yodeets"><![CDATA[<font color=#E28C05>\@yodeets</font> ]]></string>
+    <string name="lawrence">Lawrence Mandes</string>
+    <string name="founder1">Founder &amp; Managing Director</string>
+    <string name="ldmandes"><![CDATA[<font color=#E28C05>\@ldmandes</font> ]]></string>
+    <string name="chris">Chris Onan</string>
+    <string name="founder2">Founder &amp; Managing Director</string>
+    <string name="chrisonan"><![CDATA[<font color=#E28C05>\@chrisonan</font> ]]></string>
+    <string name="meryl">Meryl McDonald</string>
+    <string name="community_director">Community Director</string>
+    <string name="wheresmer"><![CDATA[<font color=#E28C05>\@wheresmer</font> ]]></string>
+    
+    <!-- Contact Us Activity Strings -->
+    <string name="contact_us">CONTACT.</string>
+    <string name="name_required">Name (Required)</string>
+    <string name="email_required">Email (Required)</string>
+    <string name="details">Details about your company and why you are a good fit for our space.
+        (Required)</string>
+    <string name="hear_about">How did you hear first hear about Galvanize?</string>
+    <string name="send_message">Send Message</string>
+    
+    <!-- Locate Us Activity Strings -->
+    <string name="locate">LOCATE.</string>
+    <string name="galvanize_address">Galvanize\n1062 Delaware St., Denver, CO 
+        80204\n303&#8211;823&#8211;4170</string>
+        
+    <!-- About The Developer Strings -->
+    <string name="about">ABOUT.</string>
+    <string name="about_the_developer"><![CDATA[The Galvanize mobile application was design and developed by
+        Justin Rowe of Soliton Design Lab in Denver, Colorado.  Founded in 2013, Soliton Design Lab
+        specializes in User Experience and User Interface design and mobile application development.
+        Please visit their website at <font color=#E28C05>www.solitondesignlab.com</font>.]]></string>
+    
+</resources>

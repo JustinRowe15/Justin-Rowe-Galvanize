@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:scaleType="center"
+    android:orientation="vertical">
+    
+	<RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	tools:context=".GalvanizeFragment" >
+            
+	        <ImageView
+    	    	android:id="@+id/innovatorsImageView"
+    			android:layout_margin="10dp"
+    			android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	android:adjustViewBounds="true"
+            	android:scaleType="centerCrop"
+    			android:src="@drawable/innovators"/>
+	        
+	        <RelativeLayout
+        		android:id="@+id/communityFirstBlock"
+        		android:layout_below="@+id/innovatorsImageView"
+        		android:layout_width="380dp"
+        		android:layout_height="212dp"
+        		android:layout_marginLeft="10dp"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginBottom="10dp"
+        		android:paddingTop="0dip"
+        		android:paddingLeft="8dip"
+        		android:paddingRight="8dip"
+        		android:paddingBottom="8dip"
+        		android:background="@drawable/rounded_corner" >
+        
+        		<TextView
+            		android:id="@+id/communityTextView" 
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/community"
+            		android:textColor="#E28C05"
+            		android:textSize="28sp"
+            		android:fontFamily="sans-serif-light" />
+        
+        		<View
+            		android:id="@+id/dividerLineFirstBlock"
+            		android:layout_below="@+id/communityTextView"
+    				android:layout_width="match_parent"
+    				android:layout_height="1dp"
+    				android:layout_marginTop="2dp"
+    				android:layout_marginBottom="8dp"
+   					android:background="#FFFFFF"/>
+        
+        		<TextView
+            		android:id="@+id/communityFirstBlockTextView"
+            		android:layout_below="@+id/dividerLineFirstBlock"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/communityFirstBlock"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+       
+     		</RelativeLayout>
+     		
+	        <RelativeLayout
+        		android:id="@+id/communitySecondBlock"
+        		android:layout_below="@+id/communityFirstBlock"
+        		android:layout_width="380dp"
+        		android:layout_height="212dp"
+        		android:layout_marginLeft="10dp"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginBottom="10dp"
+        		android:paddingTop="0dip"
+        		android:paddingLeft="8dip"
+        		android:paddingRight="8dip"
+        		android:paddingBottom="8dip"
+        		android:background="@drawable/rounded_corner" >
+        
+        		<TextView
+            		android:id="@+id/visionTextView" 
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/vision"
+            		android:textColor="#E28C05"
+            		android:textSize="28sp"
+            		android:fontFamily="sans-serif-light" />
+        
+        		<View
+            		android:id="@+id/dividerLineSecondBlock"
+            		android:layout_below="@+id/visionTextView"
+    				android:layout_width="match_parent"
+    				android:layout_height="1dp"
+    				android:layout_marginTop="2dp"
+    				android:layout_marginBottom="8dp"
+   					android:background="#FFFFFF"/>
+        
+        		<TextView
+            		android:id="@+id/communitySecondBlockTextView"
+            		android:layout_below="@+id/dividerLineSecondBlock"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/communitySecondBlock"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+       
+     		</RelativeLayout>
+     		
+	        <RelativeLayout
+        		android:id="@+id/communityThirdBlock"
+        		android:layout_below="@+id/communitySecondBlock"
+        		android:layout_width="380dp"
+        		android:layout_height="772dp"
+        		android:layout_marginLeft="10dp"
+        		android:layout_marginRight="10dp"
+        		android:layout_marginBottom="10dp"
+        		android:paddingTop="0dip"
+        		android:paddingLeft="8dip"
+        		android:paddingRight="8dip"
+        		android:paddingBottom="8dip"
+        		android:background="@drawable/rounded_corner" >
+        
+        		<TextView
+            		android:id="@+id/honoraryTextView" 
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/honorary"
+            		android:textColor="#E28C05"
+            		android:textSize="28sp"
+            		android:fontFamily="sans-serif-light" />
+        
+        		<View
+            		android:id="@+id/dividerLineThirdBlock"
+            		android:layout_below="@+id/honoraryTextView"
+    				android:layout_width="match_parent"
+    				android:layout_height="1dp"
+    				android:layout_marginTop="2dp"
+    				android:layout_marginBottom="8dp"
+   					android:background="#FFFFFF"/>
+        
+        		<TextView
+            		android:id="@+id/communityThirdBlockTextView"
+            		android:layout_below="@+id/dividerLineThirdBlock"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/communityThirdBlock"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/lukeBeattyTextView"
+            		android:layout_below="@+id/communityThirdBlockTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="4dp"
+            		android:text="@string/luke_beatty"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/davidCohenTextView"
+            		android:layout_below="@+id/lukeBeattyTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/david_cohen"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/andreDurandTextView"
+            		android:layout_below="@+id/davidCohenTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/andre_durand"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/perryEvansTextView"
+            		android:layout_below="@+id/andreDurandTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/perry_evans"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/bradFeldTextView"
+            		android:layout_below="@+id/perryEvansTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/brad_feld"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/anthonyFrancoTextView"
+            		android:layout_below="@+id/bradFeldTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/brad_feld"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/jimFranklinTextView"
+            		android:layout_below="@+id/anthonyFrancoTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/jim_franklin"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/brentHandlerTextView"
+            		android:layout_below="@+id/jimFranklinTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/brent_handler"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/shayneHigdonTextView"
+            		android:layout_below="@+id/brentHandlerTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/shayne_higdon"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/tomHigleyTextView"
+            		android:layout_below="@+id/shayneHigdonTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/tom_higley"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/markHopkinsTextView"
+            		android:layout_below="@+id/tomHigleyTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/mark_hopkins"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/jbHolstonTextView"
+            		android:layout_below="@+id/markHopkinsTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/jb_holston"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/bartLorangTextView"
+            		android:layout_below="@+id/jbHolstonTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/jb_holston"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/jonNordmarkTextView"
+            		android:layout_below="@+id/bartLorangTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/jon_nordmark"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/johnRaederTextView"
+            		android:layout_below="@+id/jonNordmarkTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/john_raeder"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/nancyPhillipsTextView"
+            		android:layout_below="@+id/johnRaederTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/nancy_phillips"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/peteHudsonTextView"
+            		android:layout_below="@+id/nancyPhillipsTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/pete_hudson"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/markAubleTextView"
+            		android:layout_below="@+id/peteHudsonTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/mark_auble"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/gregBylesTextView"
+            		android:layout_below="@+id/markAubleTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/greg_byles"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/scottChasinTextView"
+            		android:layout_below="@+id/gregBylesTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/scott_chasin"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/steveHalstadtTextView"
+            		android:layout_below="@+id/scottChasinTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/steve_halstadt"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/josephZellTextView"
+            		android:layout_below="@+id/steveHalstadtTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/joseph_zell"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+        		
+        		<TextView
+            		android:id="@+id/jasonKellerTextView"
+            		android:layout_below="@+id/josephZellTextView"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="-35dp"
+            		android:text="@string/jason_keller"
+            		android:textColor="#FFFFFF"
+            		android:textSize="16sp"
+            		android:fontFamily="sans-serif-light" />
+       
+     		</RelativeLayout>
+    
+	</RelativeLayout>
+    
+</ScrollView>
