@@ -6,12 +6,13 @@ import com.solitondesignlab.navigation.NavigationDrawerItem;
 import com.solitondesignlab.navigation.NavigationDrawerListAdapter;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.Menu;
@@ -24,7 +25,7 @@ import android.widget.ListView;
 /**
  * The Class NavigationActivity.
  */
-public class NavigationActivity extends Activity {
+public class NavigationActivity extends FragmentActivity {
 	
     /** The m drawer layout. */
     private DrawerLayout mDrawerLayout;
@@ -119,7 +120,6 @@ public class NavigationActivity extends Activity {
         if (savedInstanceState == null) {
             displayView(0);
         }
-        
     }
     
     /**
@@ -184,7 +184,7 @@ public class NavigationActivity extends Activity {
         }
  
         if (fragment != null) {
-            android.app.FragmentManager fragmentManager = getFragmentManager();
+        	android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
  
             // Update Selected Item with Title

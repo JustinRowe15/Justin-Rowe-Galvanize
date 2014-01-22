@@ -1,7 +1,8 @@
 package com.solitondesignlab.galvanize;
 
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,18 +15,11 @@ import android.widget.TextView;
  */
 public class CommunityFragment extends Fragment {
 	
-	/**
-	 * Instantiates a new community fragment.
-	 */
-	public CommunityFragment() {
-
-	}
-	
 	/* (non-Javadoc)
 	 * @see android.app.Fragment#onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)
 	 */
-	@Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    @Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         
         View rootView = inflater.inflate(R.layout.activity_community, container, false);
         
@@ -77,7 +71,17 @@ public class CommunityFragment extends Fragment {
         tv21.setText(Html.fromHtml(getString(R.string.joseph_zell)));
         tv22.setText(Html.fromHtml(getString(R.string.jason_keller)));
         
-        return rootView;
+        addYouTubeFrag();
         
+        return rootView;
+    }
+    
+    public void addYouTubeFrag() {
+    	Fragment youTubeFragment = new YouTubeFragment();
+    	FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
+    	transaction.add(R.id.fragContainer, youTubeFragment).commit();
+    	
+        //getChildFragmentManager().beginTransaction().add(R.id.fragContainer, new YouTubeFragment()).commit();
+        //getChildFragmentManager().executePendingTransactions();
     }
 }

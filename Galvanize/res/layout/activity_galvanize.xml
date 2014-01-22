@@ -1,11 +1,16 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+  	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="@drawable/background"
     android:scaleType="center"
-    android:orientation="vertical"
-    tools:context=".GalvanizeFragment" >
+    android:orientation="vertical">
+    
+    <RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	tools:context=".GalvanizeFragment" >
 
     <RelativeLayout
         android:id="@+id/homeFirstBlock"
@@ -51,7 +56,7 @@
     <RelativeLayout
         android:id="@+id/homeSecondBlock"
         android:layout_width="380dp"
-        android:layout_height="230dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="0dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
@@ -81,16 +86,46 @@
     		android:layout_marginTop="4dp"
     		android:layout_marginBottom="8dp"
    			android:background="#FFFFFF"/>
+        
+        <TextView
+            android:id="@+id/firstTweetTextView"
+            android:layout_below="@+id/dividerLineSecondBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/secondTweetTextView"
+            android:layout_below="@+id/firstTweetTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-light" />
+        
+        <TextView
+            android:id="@+id/thirdTweetTextView"
+            android:layout_below="@+id/secondTweetTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light" />
        
      </RelativeLayout>
      
     <RelativeLayout
         android:id="@+id/homeThirdBlock"
-        android:layout_width="380dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_below="@+id/homeSecondBlock"
         android:paddingTop="0dip"
         android:paddingLeft="8dip"
@@ -106,56 +141,65 @@
             android:text="@string/followUs"
             android:textColor="#E28C05"
             android:textSize="28sp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
             android:fontFamily="sans-serif-light" />
         
-        <ImageView
+        <ImageButton
             android:id="@+id/facebookIconImageView"
             android:layout_toRightOf="@+id/followUsTextView"
             android:layout_marginLeft="12dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
             android:layout_width="wrap_content"
-        	android:layout_height="fill_parent"
+        	android:layout_height="wrap_content"
         	android:layout_gravity="center_vertical"
         	android:layout_centerInParent="true"
-        	android:src="@drawable/facebook" />
+        	android:src="@drawable/facebook_button_image"
+        	android:background="@null" />
         
-        <ImageView
+        <ImageButton
             android:id="@+id/twitterIconImageView"
             android:layout_toRightOf="@+id/facebookIconImageView"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
             android:layout_width="wrap_content"
-        	android:layout_height="fill_parent"
+        	android:layout_height="wrap_content"
         	android:layout_gravity="center_vertical"
         	android:layout_centerInParent="true"
-        	android:src="@drawable/twitter" />
+        	android:src="@drawable/twitter_button_image"
+        	android:background="@null" />
         
-        <ImageView
+        <ImageButton
             android:id="@+id/linkedInIconImageView"
             android:layout_toRightOf="@+id/twitterIconImageView"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
             android:layout_width="wrap_content"
-        	android:layout_height="fill_parent"
+        	android:layout_height="wrap_content"
         	android:layout_gravity="center_vertical"
         	android:layout_centerInParent="true"
-        	android:src="@drawable/linkedin" />
+        	android:src="@drawable/linkedin_button_image"
+        	android:background="@null" />
         
-        <ImageView
+        <ImageButton
             android:id="@+id/googlePlusIconImageView"
             android:layout_toRightOf="@+id/linkedInIconImageView"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
             android:layout_width="wrap_content"
-        	android:layout_height="fill_parent"
+        	android:layout_height="wrap_content"
         	android:layout_gravity="center_vertical"
         	android:layout_centerInParent="true"
-        	android:src="@drawable/googleplus" />
+        	android:src="@drawable/googleplus_button_image"
+        	android:background="@null" />
        
      </RelativeLayout>
+     
+    </RelativeLayout>
 
-</RelativeLayout>
+</ScrollView>

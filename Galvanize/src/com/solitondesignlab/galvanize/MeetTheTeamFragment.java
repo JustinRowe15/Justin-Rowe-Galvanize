@@ -1,7 +1,9 @@
 package com.solitondesignlab.galvanize;
 
+import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
+import android.content.Intent;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,12 +16,10 @@ import android.widget.TextView;
  */
 public class MeetTheTeamFragment extends Fragment {
 	
-	/**
-	 * Instantiates a new meet the team fragment.
-	 */
-	public MeetTheTeamFragment() {
-
-	}
+	TextView jimTwitter;
+	TextView lawrenceTwitter;
+	TextView chrisTwitter;
+	TextView merylTwitter;
 
     /* (non-Javadoc)
      * @see android.app.Fragment#onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)
@@ -29,15 +29,54 @@ public class MeetTheTeamFragment extends Fragment {
         
         View rootView = inflater.inflate(R.layout.activity_theteam, container, false);
         
-        TextView tv=(TextView)rootView.findViewById(R.id.jimTwitterTextView);
-        TextView tv1=(TextView)rootView.findViewById(R.id.lawrenceTwitterTextView);
-        TextView tv2=(TextView)rootView.findViewById(R.id.chrisTwitterTextView);
-        TextView tv3=(TextView)rootView.findViewById(R.id.merylTwitterTextView);
+        jimTwitter =(TextView)rootView.findViewById(R.id.jimTwitterTextView);
+        lawrenceTwitter =(TextView)rootView.findViewById(R.id.lawrenceTwitterTextView);
+        chrisTwitter =(TextView)rootView.findViewById(R.id.chrisTwitterTextView);
+        merylTwitter =(TextView)rootView.findViewById(R.id.merylTwitterTextView);
         
-        tv.setText(Html.fromHtml(getString(R.string.yodeets)));
-        tv1.setText(Html.fromHtml(getString(R.string.ldmandes)));
-        tv2.setText(Html.fromHtml(getString(R.string.chrisonan)));
-        tv3.setText(Html.fromHtml(getString(R.string.wheresmer)));
+        jimTwitter.setText(Html.fromHtml(getString(R.string.yodeets)));
+        jimTwitter.setOnClickListener(new View.OnClickListener(){
+        	@Override
+        	public void onClick(View v) {
+        		// TODO Auto-generated method stub
+        		String twitterURL = "https://twitter.com/yodeets";
+        		Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(twitterURL));
+        		startActivity(i); 
+        	}
+        });
+        
+        lawrenceTwitter.setText(Html.fromHtml(getString(R.string.ldmandes)));
+        lawrenceTwitter.setOnClickListener(new View.OnClickListener(){
+        	@Override
+        	public void onClick(View v) {
+        		// TODO Auto-generated method stub
+        		String twitterURL = "https://twitter.com/ldmandes";
+        		Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(twitterURL));
+        		startActivity(i); 
+        	}
+        });
+        
+        chrisTwitter.setText(Html.fromHtml(getString(R.string.chrisonan)));
+        chrisTwitter.setOnClickListener(new View.OnClickListener(){
+        	@Override
+        	public void onClick(View v) {
+        		// TODO Auto-generated method stub
+        		String twitterURL = "https://twitter.com/chrisonan";
+        		Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(twitterURL));
+        		startActivity(i); 
+        	}
+        });
+        
+        merylTwitter.setText(Html.fromHtml(getString(R.string.wheresmer)));
+        merylTwitter.setOnClickListener(new View.OnClickListener(){
+        	@Override
+        	public void onClick(View v) {
+        		// TODO Auto-generated method stub
+        		String twitterURL = "https://twitter.com/wheresmer";
+        		Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(twitterURL));
+        		startActivity(i); 
+        	}
+        });
         
         return rootView;
         
