@@ -3,6 +3,8 @@
 
     <string name="app_name">Galvanize</string>
     <string name="action_settings">About The Developer</string>
+    <string name="galvanize_online">Galvanize Online</string>
+    <string name="desc">Galvanize Images</string>
     
     <!-- Navigation Drawer Strings -->
     
@@ -36,12 +38,12 @@
     <!-- Home Activity Strings -->
     <string name="welcome">Welcome.</string>
     <string name="homeFirstBlock">
-        <![CDATA[<p>Galvanize creates an “<font color=#E28C05>innovation ecosystem</font>” 
+        <![CDATA[Galvanize creates an “<font color=#E28C05>innovation ecosystem</font>” 
         designed to give entrepreneurs and innovators the best chance of success at the start of their
         next (or first) big thing.  Through the three pillars of <font color=#E28C05>Capital</font>,
         <font color=#E28C05>Community</font>, and <font color=#E28C05>Curriculum</font>, 
         Galvanize builds a community greater than the sum of its parts to spark disruptive ideas and 
-        breakout companies.</p> ]]></string>
+        breakout companies.]]></string>
     <string name="twitterHandle">\@galvanize</string>
     <string name="followUs">Follow.</string>
     
@@ -80,56 +82,56 @@
     <string name="honorary">HONORARY MEMBERS.</string>
     <string name="communityThirdBlock">These outstanding community builders are leading the next generation
         of companies coming through Galvanize.</string>
-    <string name="luke_beatty"><![CDATA[<p><font color=#E28C05>Luke Beatty</font> - Digital Media Exec, 
-        EIR Techstars</p> ]]></string>
-    <string name="david_cohen"><![CDATA[<p><font color=#E28C05>David Cohen</font> - Founder, CEO, 
-        Techstars</p> ]]></string>
-    <string name="andre_durand"><![CDATA[<p><font color=#E28C05>Andre Durand</font> - Founder, Chairman, CEP 
-        of Ping Identity</p> ]]></string> 
-    <string name="perry_evans"><![CDATA[<p><font color=#E28C05>Perry Evans</font> - CEO and Founder, 
-        Closely</p> ]]></string> 
-    <string name="brad_feld"><![CDATA[<p><font color=#E28C05>Brad Feld</font> - Managing Director, 
-        Foundry Group</p> ]]></string>
-    <string name="anthony_franco"><![CDATA[<p><font color=#E28C05>Anthony Franco</font> - President and Founder, 
-        Effective UI</p> ]]></string>
-    <string name="jim_franklin"><![CDATA[<p><font color=#E28C05>Jim Franklin</font> - CEO, Sendgrid</p> ]]></string> 
-    <string name="brent_handler"><![CDATA[<p><font color=#E28C05>Brent Handler</font> - CEO and Founder, 
-        Inspirato</p> ]]></string>
-    <string name="shayne_higdon"><![CDATA[<p><font color=#E28C05>Shayne Higdon</font> - President and CEO, 
-        Symplified</p> ]]></string>
-    <string name="tom_higley"><![CDATA[<p><font color=#E28C05>Tom Higley</font> - CEO of Vokl, 
-        Techstars Mentor</p> ]]></string>
-    <string name="mark_hopkins"><![CDATA[<p><font color=#E28C05>Mark Hopkins</font> - Founder, Crescendo 
-        Capital Partners</p> ]]></string> 
-    <string name="jb_holston"><![CDATA[<p><font color=#E28C05>JB Holston</font> - Chairman of the Board, 
-        Newsgator</p> ]]></string> 
-    <string name="bart_lorang"><![CDATA[<p><font color=#E28C05>Bart Lorang</font> - Co-Founder and CEO, 
-        FullContact</p> ]]></string>
-    <string name="jon_nordmark"><![CDATA[<p><font color=#E28C05>John Nordmark</font> - Founding Partner, 
-        Iterate Studio</p> ]]></string>
-    <string name="john_raeder"><![CDATA[<p><font color=#E28C05>John Raeder</font> - Co-Founder and Chairman,
-        Solv</p> ]]></string> 
-    <string name="nancy_phillips"><![CDATA[<p><font color=#E28C05>Nancy Phillips</font> - Co-Founder and CEO, 
-        ViaWest</p> ]]></string>
-    <string name="pete_hudson"><![CDATA[<p><font color=#E28C05>Pete Hudson, M.D.</font> - Co-Founder and CEO, 
-        iTriage</p> ]]></string>
-    <string name="mark_auble"><![CDATA[<p><font color=#E28C05>Mark Auble</font> - Co-Founder, 
-        PrimeStar Solar</p> ]]></string> 
-    <string name="greg_byles"><![CDATA[<p><font color=#E28C05>Greg Byles</font> - CEO, GTRI</p> ]]></string> 
-    <string name="scott_chasin"><![CDATA[<p><font color=#E28C05>Scott Chasin</font> - CTO, McAfee</p> ]]></string>
-    <string name="steve_halstadt"><![CDATA[<p><font color=#E28C05>Steve Halstadt</font> - Co-Founder, 
-        Centennial Ventures</p> ]]></string>
-    <string name="joseph_zell"><![CDATA[<p><font color=#E28C05>Joseph Zell</font> - General Partner,
-        Grotech Ventures</p> ]]></string> 
-    <string name="jason_keller"><![CDATA[<p><font color=#E28C05>Jason Keller</font> - COO, 
-        WellTok</p> ]]></string>
+    <string name="luke_beatty"><![CDATA[<font color=#E28C05>Luke Beatty</font> - Digital Media Exec, 
+        EIR Techstars]]></string>
+    <string name="david_cohen"><![CDATA[<font color=#E28C05>David Cohen</font> - Founder, CEO, 
+        Techstars]]></string>
+    <string name="andre_durand"><![CDATA[<font color=#E28C05>Andre Durand</font> - Founder, Chairman, CEP 
+        of Ping Identity]]></string> 
+    <string name="perry_evans"><![CDATA[<font color=#E28C05>Perry Evans</font> - CEO and Founder, 
+        Closely]]></string> 
+    <string name="brad_feld"><![CDATA[<font color=#E28C05>Brad Feld</font> - Managing Director, 
+        Foundry Group]]></string>
+    <string name="anthony_franco"><![CDATA[<font color=#E28C05>Anthony Franco</font> - President and Founder, 
+        Effective UI]]></string>
+    <string name="jim_franklin"><![CDATA[<font color=#E28C05>Jim Franklin</font> - CEO, Sendgrid]]></string> 
+    <string name="brent_handler"><![CDATA[<font color=#E28C05>Brent Handler</font> - CEO and Founder, 
+        Inspirato]]></string>
+    <string name="shayne_higdon"><![CDATA[<font color=#E28C05>Shayne Higdon</font> - President and CEO, 
+        Symplified]]></string>
+    <string name="tom_higley"><![CDATA[<font color=#E28C05>Tom Higley</font> - CEO of Vokl, 
+        Techstars Mentor]]></string>
+    <string name="mark_hopkins"><![CDATA[<font color=#E28C05>Mark Hopkins</font> - Founder, Crescendo 
+        Capital Partners]]></string> 
+    <string name="jb_holston"><![CDATA[<font color=#E28C05>JB Holston</font> - Chairman of the Board, 
+        Newsgator]]></string> 
+    <string name="bart_lorang"><![CDATA[<font color=#E28C05>Bart Lorang</font> - Co-Founder and CEO, 
+        FullContact]]></string>
+    <string name="jon_nordmark"><![CDATA[<font color=#E28C05>John Nordmark</font> - Founding Partner, 
+        Iterate Studio]]></string>
+    <string name="john_raeder"><![CDATA[<font color=#E28C05>John Raeder</font> - Co-Founder and Chairman,
+        Solv]]></string> 
+    <string name="nancy_phillips"><![CDATA[<font color=#E28C05>Nancy Phillips</font> - Co-Founder and CEO, 
+        ViaWest]]></string>
+    <string name="pete_hudson"><![CDATA[<font color=#E28C05>Pete Hudson, M.D.</font> - Co-Founder and CEO, 
+        iTriage]]></string>
+    <string name="mark_auble"><![CDATA[<font color=#E28C05>Mark Auble</font> - Co-Founder, 
+        PrimeStar Solar]]></string> 
+    <string name="greg_byles"><![CDATA[<font color=#E28C05>Greg Byles</font> - CEO, GTRI]]></string> 
+    <string name="scott_chasin"><![CDATA[<font color=#E28C05>Scott Chasin</font> - CTO, McAfee]]></string>
+    <string name="steve_halstadt"><![CDATA[<font color=#E28C05>Steve Halstadt</font> - Co-Founder, 
+        Centennial Ventures]]></string>
+    <string name="joseph_zell"><![CDATA[<font color=#E28C05>Joseph Zell</font> - General Partner,
+        Grotech Ventures]]></string> 
+    <string name="jason_keller"><![CDATA[<font color=#E28C05>Jason Keller</font> - COO, 
+        WellTok]]></string>
         
     <!-- Curriculum Activity Strings -->
     <string name="learn">LEARN.</string>
-    <string name="curriculumFirstBlock"><![CDATA[<p>Nothing is more powerful than to have an idea- and the means and skills to build 
+    <string name="curriculumFirstBlock"><![CDATA[Nothing is more powerful than to have an idea- and the means and skills to build 
         it. gSchool offers programs and classes that are directly applicable to startups and innovators, and develops 
         talent that is in critical need by emerging digital startups. Our first program, a six-month intensive Ruby on
-         Rails program, launched in January 2013. See what we\'re up to now by visiting <font color=#E28C05>www.gschool.it</font>.</p> ]]></string>
+         Rails program, launched in January 2013. See what we\'re up to now by visiting <font color=#E28C05>www.gschool.it</font>.]]></string>
     <string name="curriculum">CURRICULUM.</string>
     <string name="frontEndTechnologies">Front End Technologies: CSS, HTML5, Javascript.</string>
     <string name="backEndTechnologies">Back End Technologies: Ruby, Rails and SQL.</string>

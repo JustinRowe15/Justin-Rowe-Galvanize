@@ -8,14 +8,14 @@
     android:orientation="vertical">
     
 	<RelativeLayout
-    	android:layout_width="match_parent"
+    	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	tools:context=".GalvanizeFragment" >
     	
 	    <RelativeLayout
         	android:id="@+id/theSpaceFirstBlock"
-        	android:layout_width="380dp"
-        	android:layout_height="232dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
         	android:layout_margin="10dp"
         	android:paddingTop="0dip"
         	android:paddingLeft="8dip"
@@ -56,8 +56,8 @@
 	    <RelativeLayout
         	android:id="@+id/theSpaceSecondBlock"
         	android:layout_below="@+id/theSpaceFirstBlock"
-        	android:layout_width="380dp"
-        	android:layout_height="250dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
         	android:layout_marginLeft="10dp"
         	android:layout_marginRight="10dp"
         	android:layout_marginBottom="10dp"
@@ -70,7 +70,7 @@
 	        <RelativeLayout
         		android:id="@+id/theSpaceSecondBlockInnerCell1"
         		android:layout_width="190dp"
-        		android:layout_height="248dp"
+        		android:layout_height="wrap_content"
         		android:layout_marginTop="0dp"
         		android:layout_marginRight="0dp"
         		android:paddingTop="0dip"
@@ -148,8 +148,8 @@
 	        <RelativeLayout
         		android:id="@+id/theSpaceSecondBlockInnerCell2"
         		android:layout_toRightOf="@+id/theSpaceSecondBlockInnerCell1"
-        		android:layout_width="190dp"
-        		android:layout_height="242dp"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
         		android:layout_marginTop="10dp"
         		android:layout_marginRight="8dp"
         		android:layout_marginBottom="8dp"
@@ -162,7 +162,8 @@
     				android:layout_marginBottom="8dp"
     				android:layout_width="fill_parent"
    					android:layout_height="wrap_content"
-    				android:src="@drawable/gather"/>
+    				android:src="@drawable/gather"
+    				android:contentDescription="@string/desc"/>
 	            
 	            <ImageView
     	    		android:id="@+id/theSpaceImageView2"
@@ -172,7 +173,8 @@
     				android:layout_marginBottom="8dp"
     				android:layout_width="fill_parent"
    					android:layout_height="wrap_content"
-    				android:src="@drawable/atrium"/>
+    				android:src="@drawable/atrium"
+    				android:contentDescription="@string/desc"/>
 	            
 	            <ImageView
     	    		android:id="@+id/theSpaceImageView3"
@@ -181,7 +183,8 @@
             		android:scaleType="fitXY"
     				android:layout_width="fill_parent"
    					android:layout_height="wrap_content"
-    				android:src="@drawable/suites"/>
+    				android:src="@drawable/suites"
+    				android:contentDescription="@string/desc"/>
 	            
 	        </RelativeLayout>
        
@@ -190,11 +193,12 @@
 	    <RelativeLayout
 	        android:id="@+id/theSpaceThirdBlock"
 	        android:layout_below="@+id/theSpaceSecondBlock"
-	        android:layout_width="380dp"
-        	android:layout_height="860dp"
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
         	android:layout_marginRight="10dp"
         	android:layout_marginLeft="10dp"
         	android:layout_marginBottom="10dp"
+        	android:paddingBottom="8dp"
         	android:baselineAligned="false"
         	android:background="@drawable/rounded_corner">
 	        
@@ -272,7 +276,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark2"
@@ -285,7 +290,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark3"
@@ -298,7 +304,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- Nourish Row -->
 	        	
@@ -324,7 +331,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark5"
@@ -337,7 +345,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark6"
@@ -350,7 +359,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- Unwind Row -->
 	        	
@@ -376,7 +386,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark8"
@@ -389,7 +400,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark9"
@@ -402,7 +414,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- Company Signage Row -->
 	        	
@@ -575,7 +588,8 @@
   					android:maxHeight="12dp"
   					android:padding="10dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark11"
@@ -588,7 +602,8 @@
   					android:maxHeight="30dp" 
   					android:padding="10dp" 
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- Cabinet Row -->
 	        	
@@ -614,7 +629,8 @@
   					android:maxHeight="30dp"
   					android:padding="10dp"   
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark13"
@@ -627,7 +643,8 @@
   					android:maxHeight="30dp" 
   					android:padding="10dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- 24 Hour Access Row -->
 	        	
@@ -653,7 +670,8 @@
   					android:maxHeight="30dp"
   					android:padding="10dp"   
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<ImageView
     	    		android:id="@+id/checkMark15"
@@ -666,7 +684,8 @@
   					android:maxHeight="30dp"
   					android:padding="10dp"   
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- Scalable Space Row -->
 	        	
@@ -704,7 +723,8 @@
   					android:maxWidth="30dp"  
   					android:maxHeight="30dp"  
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- Lockable Suite Row -->
 	        	
@@ -730,7 +750,8 @@
   					android:maxHeight="30dp"
   					android:padding="10dp"   
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- Shared Space Reservation Row -->
 	        	
@@ -756,7 +777,8 @@
   					android:maxHeight="30dp"
   					android:padding="15dp"   
  					android:scaleType="fitCenter"
-    				android:src="@drawable/checkmark"/>
+    				android:src="@drawable/checkmark"
+    				android:contentDescription="@string/desc"/>
 	        	
 	        	<!-- Pricing Row -->
 	        	

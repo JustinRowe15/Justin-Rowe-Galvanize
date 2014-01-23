@@ -8,14 +8,14 @@
     android:orientation="vertical">
 
     <RelativeLayout
-    	android:layout_width="match_parent"
+    	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	tools:context=".GalvanizeFragment" >
     	
 	    <RelativeLayout
         	android:id="@+id/theTeamFirstBlock"
-        	android:layout_width="380dp"
-        	android:layout_height="508dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
         	android:layout_margin="10dp"
         	android:paddingTop="0dip"
         	android:paddingLeft="8dip"
@@ -44,7 +44,7 @@
         		android:id="@+id/meetTheTeamBlockInnerCell1"
         		android:layout_below="@+id/dividerLineFirstBlock"
         		android:layout_width="190dp"
-        		android:layout_height="490dp"
+        		android:layout_height="wrap_content"
         		android:layout_marginTop="-10dp"
         		android:layout_marginRight="0dp"
         		android:paddingTop="8dip"
@@ -189,8 +189,8 @@
         		android:id="@+id/meetTheTeamBlockInnerCell2"
         		android:layout_below="@+id/dividerLineFirstBlock"
         		android:layout_toRightOf="@+id/meetTheTeamBlockInnerCell1"
-        		android:layout_width="190dp"
-        		android:layout_height="490dp"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
         		android:layout_marginTop="4dp"
         		android:layout_marginRight="0dp"
         		android:layout_marginBottom="8dp"
@@ -203,7 +203,8 @@
     				android:layout_marginBottom="8dp"
     				android:layout_width="fill_parent"
    					android:layout_height="wrap_content"
-    				android:src="@drawable/jim"/>
+    				android:src="@drawable/jim"
+    				android:contentDescription="@string/desc"/>
 	            
 	            <ImageView
     	    		android:id="@+id/lawrenceMandesImageView"
@@ -213,7 +214,8 @@
     				android:layout_marginBottom="8dp"
     				android:layout_width="fill_parent"
    					android:layout_height="wrap_content"
-    				android:src="@drawable/lawrence"/>
+    				android:src="@drawable/lawrence"
+    				android:contentDescription="@string/desc"/>
 	            
 	            <ImageView
     	    		android:id="@+id/chrisOnanImageView"
@@ -223,7 +225,8 @@
             		android:layout_marginBottom="8dp"
     				android:layout_width="fill_parent"
    					android:layout_height="wrap_content"
-    				android:src="@drawable/chris"/>
+    				android:src="@drawable/chris"
+    				android:contentDescription="@string/desc"/>
 	            
 	            <ImageView
     	    		android:id="@+id/merylMcDonaldImageView"
@@ -232,7 +235,8 @@
             		android:scaleType="fitXY"
     				android:layout_width="fill_parent"
    					android:layout_height="wrap_content"
-    				android:src="@drawable/meryl"/>
+    				android:src="@drawable/meryl"
+    				android:contentDescription="@string/desc"/>
 	            
 	        </RelativeLayout>
        

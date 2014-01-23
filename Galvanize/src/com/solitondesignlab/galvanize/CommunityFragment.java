@@ -2,7 +2,6 @@ package com.solitondesignlab.galvanize;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -77,11 +76,8 @@ public class CommunityFragment extends Fragment {
     }
     
     public void addYouTubeFrag() {
-    	Fragment youTubeFragment = new YouTubeFragment();
-    	FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-    	transaction.add(R.id.fragContainer, youTubeFragment).commit();
-    	
-        //getChildFragmentManager().beginTransaction().add(R.id.fragContainer, new YouTubeFragment()).commit();
-        //getChildFragmentManager().executePendingTransactions();
+        
+        YouTubeFragment myFragment = YouTubeFragment.newInstance("uttzftvxAoI");
+        getChildFragmentManager().beginTransaction().replace(R.id.fragContainer, myFragment).commit();
     }
 }

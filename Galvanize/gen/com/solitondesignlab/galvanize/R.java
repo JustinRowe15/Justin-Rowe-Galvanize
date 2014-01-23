@@ -77,7 +77,7 @@ public final class R {
         public static final int aboutTheDeveloperTextView=0x7f090003;
         public static final int accelerateTextView=0x7f090064;
         public static final int accessTextView=0x7f090095;
-        public static final int action_settings=0x7f0900bb;
+        public static final int action_settings=0x7f0900b9;
         public static final int activeJunkyParagraphTextView=0x7f09000b;
         public static final int activeJunkyTitleTextView=0x7f09000a;
         public static final int andreDurandTextView=0x7f090021;
@@ -155,6 +155,7 @@ public final class R {
         public static final int gSuitesDescriptionTextView=0x7f09006d;
         public static final int gSuitesTextView=0x7f09006c;
         public static final int galvanizeAddressTextView=0x7f09005f;
+        public static final int galvanize_online=0x7f0900ba;
         public static final int gatherDescriptionTextView=0x7f090069;
         public static final int gatherTextView=0x7f090068;
         public static final int googlePlusIconImageView=0x7f09005c;
@@ -258,8 +259,6 @@ public final class R {
         public static final int unwindTextView=0x7f09007f;
         public static final int visionTextView=0x7f090018;
         public static final int welcomeTextView=0x7f090050;
-        public static final int youTubeContainer=0x7f0900b9;
-        public static final int youtube_view=0x7f0900ba;
     }
     public static final class layout {
         public static final int activity_about_the_developer=0x7f030000;
@@ -274,7 +273,6 @@ public final class R {
         public static final int activity_thespace=0x7f030009;
         public static final int activity_theteam=0x7f03000a;
         public static final int drawer_list_item=0x7f03000b;
-        public static final int fragment_youtube=0x7f03000c;
     }
     public static final class menu {
         public static final int galvanize=0x7f080000;
@@ -282,137 +280,139 @@ public final class R {
     public static final class string {
         /**  About The Developer Strings 
          */
-        public static final int about=0x7f05006f;
-        public static final int about_the_developer=0x7f050070;
+        public static final int about=0x7f050071;
+        public static final int about_the_developer=0x7f050072;
         /**  The Space Activity Strings 
          */
-        public static final int accelerate=0x7f050036;
-        public static final int access=0x7f050051;
+        public static final int accelerate=0x7f050038;
+        public static final int access=0x7f050053;
         public static final int action_settings=0x7f050001;
-        public static final int activeJunkyBlock=0x7f05000b;
-        public static final int active_junky=0x7f05000a;
-        public static final int andre_durand=0x7f05001a;
-        public static final int anthony_franco=0x7f05001d;
+        public static final int activeJunkyBlock=0x7f05000d;
+        public static final int active_junky=0x7f05000c;
+        public static final int andre_durand=0x7f05001c;
+        public static final int anthony_franco=0x7f05001f;
         public static final int app_name=0x7f050000;
-        public static final int atrium=0x7f05003a;
-        public static final int atriumDescription=0x7f05003b;
-        public static final int backEndTechnologies=0x7f050033;
-        public static final int bart_lorang=0x7f050024;
-        public static final int brad_feld=0x7f05001c;
-        public static final int brent_handler=0x7f05001f;
-        public static final int cabinet=0x7f050050;
-        public static final int capitalFirstBlock=0x7f050008;
-        public static final int chris=0x7f050061;
-        public static final int chrisonan=0x7f050063;
+        public static final int atrium=0x7f05003c;
+        public static final int atriumDescription=0x7f05003d;
+        public static final int backEndTechnologies=0x7f050035;
+        public static final int bart_lorang=0x7f050026;
+        public static final int brad_feld=0x7f05001e;
+        public static final int brent_handler=0x7f050021;
+        public static final int cabinet=0x7f050052;
+        public static final int capitalFirstBlock=0x7f05000a;
+        public static final int chris=0x7f050063;
+        public static final int chrisonan=0x7f050065;
         /**  Community Activity Strings 
          */
-        public static final int community=0x7f050012;
-        public static final int communityFirstBlock=0x7f050013;
-        public static final int communitySecondBlock=0x7f050015;
-        public static final int communityThirdBlock=0x7f050017;
-        public static final int community_director=0x7f050065;
-        public static final int conference_room=0x7f05004d;
-        public static final int connect=0x7f050048;
+        public static final int community=0x7f050014;
+        public static final int communityFirstBlock=0x7f050015;
+        public static final int communitySecondBlock=0x7f050017;
+        public static final int communityThirdBlock=0x7f050019;
+        public static final int community_director=0x7f050067;
+        public static final int conference_room=0x7f05004f;
+        public static final int connect=0x7f05004a;
         /**  Contact Us Activity Strings 
          */
-        public static final int contact_us=0x7f050067;
-        public static final int courseLength=0x7f050035;
-        public static final int curriculum=0x7f050031;
-        public static final int curriculumFirstBlock=0x7f050030;
-        public static final int dabble=0x7f05000e;
-        public static final int dabbleBlock=0x7f05000f;
-        public static final int david_cohen=0x7f050019;
+        public static final int contact_us=0x7f050069;
+        public static final int courseLength=0x7f050037;
+        public static final int curriculum=0x7f050033;
+        public static final int curriculumFirstBlock=0x7f050032;
+        public static final int dabble=0x7f050010;
+        public static final int dabbleBlock=0x7f050011;
+        public static final int david_cohen=0x7f05001b;
+        public static final int desc=0x7f050003;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f050002;
-        public static final int details=0x7f05006a;
-        public static final int digital_signage=0x7f050045;
-        public static final int email_required=0x7f050069;
-        public static final int exterior_signage=0x7f050047;
-        public static final int first_price=0x7f050057;
-        public static final int followUs=0x7f050006;
-        public static final int founder=0x7f05005c;
-        public static final int founder1=0x7f05005f;
-        public static final int founder2=0x7f050062;
-        public static final int frontEndTechnologies=0x7f050032;
-        public static final int furnished=0x7f050041;
-        public static final int gSuites=0x7f05003c;
-        public static final int gSuitesDescription=0x7f05003d;
-        public static final int galvanize_address=0x7f05006e;
-        public static final int gather=0x7f050038;
-        public static final int gatherDescription=0x7f050039;
-        public static final int greg_byles=0x7f05002a;
-        public static final int hear_about=0x7f05006b;
-        public static final int homeFirstBlock=0x7f050004;
-        public static final int honorary=0x7f050016;
-        public static final int interior_signage=0x7f050046;
+        public static final int desc_list_item_icon=0x7f050004;
+        public static final int details=0x7f05006c;
+        public static final int digital_signage=0x7f050047;
+        public static final int email_required=0x7f05006b;
+        public static final int exterior_signage=0x7f050049;
+        public static final int first_price=0x7f050059;
+        public static final int followUs=0x7f050008;
+        public static final int founder=0x7f05005e;
+        public static final int founder1=0x7f050061;
+        public static final int founder2=0x7f050064;
+        public static final int frontEndTechnologies=0x7f050034;
+        public static final int furnished=0x7f050043;
+        public static final int gSuites=0x7f05003e;
+        public static final int gSuitesDescription=0x7f05003f;
+        public static final int galvanize_address=0x7f050070;
+        public static final int galvanize_online=0x7f050002;
+        public static final int gather=0x7f05003a;
+        public static final int gatherDescription=0x7f05003b;
+        public static final int greg_byles=0x7f05002c;
+        public static final int hear_about=0x7f05006d;
+        public static final int homeFirstBlock=0x7f050006;
+        public static final int honorary=0x7f050018;
+        public static final int interior_signage=0x7f050048;
         /**  Capital Activity Strings 
          */
-        public static final int invest=0x7f050007;
-        public static final int jason_keller=0x7f05002e;
-        public static final int jb_holston=0x7f050023;
-        public static final int jim=0x7f05005b;
-        public static final int jim_franklin=0x7f05001e;
-        public static final int john_raeder=0x7f050026;
-        public static final int jon_nordmark=0x7f050025;
-        public static final int joseph_zell=0x7f05002d;
-        public static final int keenIOBlock=0x7f05000d;
-        public static final int keen_io=0x7f05000c;
-        public static final int lawrence=0x7f05005e;
-        public static final int ldmandes=0x7f050060;
+        public static final int invest=0x7f050009;
+        public static final int jason_keller=0x7f050030;
+        public static final int jb_holston=0x7f050025;
+        public static final int jim=0x7f05005d;
+        public static final int jim_franklin=0x7f050020;
+        public static final int john_raeder=0x7f050028;
+        public static final int jon_nordmark=0x7f050027;
+        public static final int joseph_zell=0x7f05002f;
+        public static final int keenIOBlock=0x7f05000f;
+        public static final int keen_io=0x7f05000e;
+        public static final int lawrence=0x7f050060;
+        public static final int ldmandes=0x7f050062;
         /**  Curriculum Activity Strings 
          */
-        public static final int learn=0x7f05002f;
-        public static final int limited_customization=0x7f050053;
+        public static final int learn=0x7f050031;
+        public static final int limited_customization=0x7f050055;
         /**  Locate Us Activity Strings 
          */
-        public static final int locate=0x7f05006d;
-        public static final int lockable_suite=0x7f050054;
-        public static final int luke_beatty=0x7f050018;
-        public static final int mark_auble=0x7f050029;
-        public static final int mark_hopkins=0x7f050022;
-        public static final int meryl=0x7f050064;
-        public static final int name_required=0x7f050068;
-        public static final int nancy_phillips=0x7f050027;
-        public static final int nourish=0x7f050042;
-        public static final int pangeaOrganicsBlock=0x7f050011;
-        public static final int pangea_organics=0x7f050010;
-        public static final int perry_evans=0x7f05001b;
-        public static final int pete_hudson=0x7f050028;
-        public static final int phone=0x7f05004c;
-        public static final int please_inquire=0x7f050059;
-        public static final int portfolio=0x7f050009;
-        public static final int pricing=0x7f050056;
-        public static final int private_wired=0x7f05004b;
-        public static final int rentable=0x7f05004e;
-        public static final int reservation_preference=0x7f050055;
-        public static final int reserved=0x7f05004f;
-        public static final int scalable_space=0x7f050052;
-        public static final int scott_chasin=0x7f05002b;
-        public static final int seat=0x7f05003e;
-        public static final int second_price=0x7f050058;
-        public static final int send_message=0x7f05006c;
-        public static final int shared_wired=0x7f05004a;
-        public static final int shared_wireless=0x7f050049;
-        public static final int shayne_higdon=0x7f050020;
-        public static final int signage=0x7f050044;
-        public static final int station=0x7f05003f;
-        public static final int steve_halstadt=0x7f05002c;
-        public static final int suite=0x7f050040;
+        public static final int locate=0x7f05006f;
+        public static final int lockable_suite=0x7f050056;
+        public static final int luke_beatty=0x7f05001a;
+        public static final int mark_auble=0x7f05002b;
+        public static final int mark_hopkins=0x7f050024;
+        public static final int meryl=0x7f050066;
+        public static final int name_required=0x7f05006a;
+        public static final int nancy_phillips=0x7f050029;
+        public static final int nourish=0x7f050044;
+        public static final int pangeaOrganicsBlock=0x7f050013;
+        public static final int pangea_organics=0x7f050012;
+        public static final int perry_evans=0x7f05001d;
+        public static final int pete_hudson=0x7f05002a;
+        public static final int phone=0x7f05004e;
+        public static final int please_inquire=0x7f05005b;
+        public static final int portfolio=0x7f05000b;
+        public static final int pricing=0x7f050058;
+        public static final int private_wired=0x7f05004d;
+        public static final int rentable=0x7f050050;
+        public static final int reservation_preference=0x7f050057;
+        public static final int reserved=0x7f050051;
+        public static final int scalable_space=0x7f050054;
+        public static final int scott_chasin=0x7f05002d;
+        public static final int seat=0x7f050040;
+        public static final int second_price=0x7f05005a;
+        public static final int send_message=0x7f05006e;
+        public static final int shared_wired=0x7f05004c;
+        public static final int shared_wireless=0x7f05004b;
+        public static final int shayne_higdon=0x7f050022;
+        public static final int signage=0x7f050046;
+        public static final int station=0x7f050041;
+        public static final int steve_halstadt=0x7f05002e;
+        public static final int suite=0x7f050042;
         /**  The Team Activity Strings 
          */
-        public static final int team=0x7f05005a;
-        public static final int theSpaceFirstBlock=0x7f050037;
-        public static final int tom_higley=0x7f050021;
-        public static final int toolsAndSkills=0x7f050034;
-        public static final int twitterHandle=0x7f050005;
-        public static final int unwind=0x7f050043;
-        public static final int vision=0x7f050014;
+        public static final int team=0x7f05005c;
+        public static final int theSpaceFirstBlock=0x7f050039;
+        public static final int tom_higley=0x7f050023;
+        public static final int toolsAndSkills=0x7f050036;
+        public static final int twitterHandle=0x7f050007;
+        public static final int unwind=0x7f050045;
+        public static final int vision=0x7f050016;
         /**  Home Activity Strings 
          */
-        public static final int welcome=0x7f050003;
-        public static final int wheresmer=0x7f050066;
-        public static final int yodeets=0x7f05005d;
+        public static final int welcome=0x7f050005;
+        public static final int wheresmer=0x7f050068;
+        public static final int yodeets=0x7f05005f;
     }
     public static final class style {
         /** 

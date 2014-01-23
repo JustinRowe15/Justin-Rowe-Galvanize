@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import com.solitondesignlab.navigation.NavigationDrawerItem;
 import com.solitondesignlab.navigation.NavigationDrawerListAdapter;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
@@ -221,6 +221,11 @@ public class NavigationActivity extends FragmentActivity {
         case R.id.action_settings:
         	Intent intent = new Intent(NavigationActivity.this, AboutTheDeveloper.class);
         	startActivityForResult(intent, 0);
+            return true;
+        case R.id.galvanize_online:
+        	String galvanizeURL = "http://www.galvanize.it";
+    		Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(galvanizeURL));
+    		startActivity(i);
             return true;
         default:
             return super.onOptionsItemSelected(item);

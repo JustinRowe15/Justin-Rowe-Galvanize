@@ -14,8 +14,8 @@
 
     <RelativeLayout
         android:id="@+id/homeFirstBlock"
-        android:layout_width="380dp"
-        android:layout_height="210dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:paddingTop="0dip"
         android:paddingLeft="8dip"
@@ -55,8 +55,8 @@
      
     <RelativeLayout
         android:id="@+id/homeSecondBlock"
-        android:layout_width="380dp"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
@@ -156,7 +156,8 @@
         	android:layout_gravity="center_vertical"
         	android:layout_centerInParent="true"
         	android:src="@drawable/facebook_button_image"
-        	android:background="@null" />
+        	android:background="@null"
+        	android:contentDescription="@string/desc" />
         
         <ImageButton
             android:id="@+id/twitterIconImageView"
@@ -169,7 +170,8 @@
         	android:layout_gravity="center_vertical"
         	android:layout_centerInParent="true"
         	android:src="@drawable/twitter_button_image"
-        	android:background="@null" />
+        	android:background="@null"
+        	android:contentDescription="@string/desc" />
         
         <ImageButton
             android:id="@+id/linkedInIconImageView"
@@ -182,7 +184,8 @@
         	android:layout_gravity="center_vertical"
         	android:layout_centerInParent="true"
         	android:src="@drawable/linkedin_button_image"
-        	android:background="@null" />
+        	android:background="@null"
+        	android:contentDescription="@string/desc" />
         
         <ImageButton
             android:id="@+id/googlePlusIconImageView"
@@ -196,7 +199,8 @@
         	android:layout_gravity="center_vertical"
         	android:layout_centerInParent="true"
         	android:src="@drawable/googleplus_button_image"
-        	android:background="@null" />
+        	android:background="@null"
+        	android:contentDescription="@string/desc" />
        
      </RelativeLayout>
      

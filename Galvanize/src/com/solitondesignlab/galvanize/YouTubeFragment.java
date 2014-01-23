@@ -1,41 +1,49 @@
 package com.solitondesignlab.galvanize;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 import com.google.android.youtube.player.YouTubePlayer.OnInitializedListener;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
-import com.google.android.youtube.player.YouTubePlayerView;
+import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 
-public class YouTubeFragment extends YouTubePlayerSupportFragment implements YouTubePlayer.OnInitializedListener {
+public class YouTubeFragment extends YouTubePlayerSupportFragment {
 	
-	static private final String DEVELOPER_KEY = "AIzaSyCKB12QsO6RPtmd5GvK5KxFnqXSwJE9gFM";
-    static private final String VIDEO = "uttzftvxAoI";
-    String log = "";
+	public static String DEVELOPER_KEY = "AIzaSyCKB12QsO6RPtmd5GvK5KxFnqXSwJE9gFM";
+    public YouTubePlayer activePlayer;
 
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+	public static YouTubeFragment newInstance(String url) {
 		
-		View rootView = inflater.inflate(R.layout.fragment_youtube, container, false);
+		YouTubeFragment playerYouTubeFrag = new YouTubeFragment();
+		Bundle bundle = new Bundle();
+		bundle.putString("url", url);
+		playerYouTubeFrag.setArguments(bundle);
+		playerYouTubeFrag.init();
 		
-		YouTubePlayerView youTubeView = (YouTubePlayerView)rootView.findViewById(R.id.youtube_view);
-		youTubeView.initialize(DEVELOPER_KEY, (OnInitializedListener) this);
-
-		return rootView;
+		return playerYouTubeFrag;
+		
 	}
 	
-	public void onInitializationFailure(Provider provider, YouTubeInitializationResult error) {
-		Toast.makeText(YouTubeFragment.this.getActivity(), "Oh no! "+error.toString(),Toast.LENGTH_LONG).show();
-		}
+	private void init() {
+		
+		initialize(DEVELOPER_KEY, new OnInitializedListener() {
+			
+			public void onInitializationFailure(Provider arg0, YouTubeInitializationResult arg1) {
+				
+			}
+			
+			public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer player, boolean wasRestored) {
+				activePlayer = player;
+				activePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
+				if (!wasRestored) {
+					activePlayer.cueVideo(getArguments().getString("url"), 0);
+				}
+	        }
+	    });
+	}
 	
-	@Override
-	public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
-		player.loadVideo(VIDEO);
-		}
+	public void onYouTubeVideoPaused() {
+		activePlayer.pause();
+	}
 }
