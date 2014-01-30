@@ -10,5 +10,5 @@ Change log: None
 
 Current feature list: All features for this application are completed.  Newest features finalized we're Google Maps API address view and Contact Us form view.
 
-Usage instructions: Tour the application utilizing the navigation drawer (access it next to the G icon at the top left of the screen) to access each application page. Final features to be added is Locate Us screen map view and Contact Us screen implementation.
+Usage instructions: Tour the application utilizing the navigation drawer (access it next to the G icon at the top left of the screen) to access each application page.
 
