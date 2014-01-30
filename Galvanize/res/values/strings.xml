@@ -208,7 +208,8 @@
     <!-- Locate Us Activity Strings -->
     <string name="locate">LOCATE.</string>
     <string name="galvanize_address">Galvanize\n1062 Delaware St., Denver, CO 
-        80204\n303&#8211;823&#8211;4170</string>
+        80204</string>
+    <string name="galvanize_number">303&#8211;823&#8211;4170</string>
         
     <!-- About The Developer Strings -->
     <string name="about">ABOUT.</string>

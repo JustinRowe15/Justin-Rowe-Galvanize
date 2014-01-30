@@ -218,14 +218,14 @@ public class NavigationActivity extends FragmentActivity {
         }
         // Handle Click Actions
         switch (item.getItemId()) {
-        case R.id.action_settings:
-        	Intent intent = new Intent(NavigationActivity.this, AboutTheDeveloper.class);
-        	startActivityForResult(intent, 0);
-            return true;
         case R.id.galvanize_online:
         	String galvanizeURL = "http://www.galvanize.it";
     		Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(galvanizeURL));
     		startActivity(i);
+            return true;
+        case R.id.action_settings:
+        	Intent intent = new Intent(NavigationActivity.this, AboutTheDeveloper.class);
+        	startActivityForResult(intent, 0);
             return true;
         default:
             return super.onOptionsItemSelected(item);

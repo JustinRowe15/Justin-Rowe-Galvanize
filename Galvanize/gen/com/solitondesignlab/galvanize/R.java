@@ -11,12 +11,181 @@ public final class R {
     public static final class array {
         /**  Navigation Drawer List Icons 
          */
-        public static final int navigation_drawer_icons=0x7f060001;
+        public static final int navigation_drawer_icons=0x7f090001;
         /**  Navigation Drawer Strings 
          */
-        public static final int navigation_drawer_items=0x7f060000;
+        public static final int navigation_drawer_items=0x7f090000;
     }
     public static final class attr {
+        /** 
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+    
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSize=0x7f010000;
+        /** 
+    A comma-separated list of the supported ad sizes. The sizes must be one of
+    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
+    
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSizes=0x7f010001;
+        /**  The ad unit ID. 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adUnitId=0x7f010002;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraBearing=0x7f010004;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLat=0x7f010005;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLng=0x7f010006;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTilt=0x7f010007;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraZoom=0x7f010008;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int mapType=0x7f010003;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiCompass=0x7f010009;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiRotateGestures=0x7f01000a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiScrollGestures=0x7f01000b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiTiltGestures=0x7f01000c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomControls=0x7f01000d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomGestures=0x7f01000e;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useViewLifecycle=0x7f01000f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zOrderOnTop=0x7f010010;
+    }
+    public static final class color {
+        public static final int common_action_bar_splitter=0x7f040009;
+        /**  Sign-in Button Colors 
+         */
+        public static final int common_signin_btn_dark_text_default=0x7f040000;
+        public static final int common_signin_btn_dark_text_disabled=0x7f040002;
+        public static final int common_signin_btn_dark_text_focused=0x7f040003;
+        public static final int common_signin_btn_dark_text_pressed=0x7f040001;
+        public static final int common_signin_btn_default_background=0x7f040008;
+        public static final int common_signin_btn_light_text_default=0x7f040004;
+        public static final int common_signin_btn_light_text_disabled=0x7f040006;
+        public static final int common_signin_btn_light_text_focused=0x7f040007;
+        public static final int common_signin_btn_light_text_pressed=0x7f040005;
+        public static final int common_signin_btn_text_dark=0x7f04000a;
+        public static final int common_signin_btn_text_light=0x7f04000b;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -25,240 +194,278 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f080000;
+        public static final int activity_vertical_margin=0x7f080001;
     }
     public static final class drawable {
         public static final int atrium=0x7f020000;
         public static final int background=0x7f020001;
         public static final int checkmark=0x7f020002;
         public static final int chris=0x7f020003;
-        public static final int facebook_button_image=0x7f020004;
-        public static final int facebook_normal=0x7f020005;
-        public static final int facebook_pressed=0x7f020006;
-        public static final int gather=0x7f020007;
-        public static final int googleplus_button_image=0x7f020008;
-        public static final int googleplus_normal=0x7f020009;
-        public static final int googleplus_pressed=0x7f02000a;
-        public static final int ic_action_armchair=0x7f02000b;
-        public static final int ic_action_book=0x7f02000c;
-        public static final int ic_action_document=0x7f02000d;
-        public static final int ic_action_home=0x7f02000e;
-        public static final int ic_action_line_chart=0x7f02000f;
-        public static final int ic_action_map=0x7f020010;
-        public static final int ic_action_signal=0x7f020011;
-        public static final int ic_action_users=0x7f020012;
-        public static final int ic_drawer=0x7f020013;
-        public static final int ic_launcher=0x7f020014;
-        public static final int innovators=0x7f020015;
-        public static final int jim=0x7f020016;
-        public static final int launch_image=0x7f020017;
-        public static final int lawrence=0x7f020018;
-        public static final int linkedin_button_image=0x7f020019;
-        public static final int linkedin_normal=0x7f02001a;
-        public static final int linkedin_pressed=0x7f02001b;
-        public static final int list_item_normal=0x7f02001c;
-        public static final int list_item_pressed=0x7f02001d;
-        public static final int list_item_selector=0x7f02001e;
-        public static final int logo=0x7f02001f;
-        public static final int meryl=0x7f020020;
-        public static final int rounded_corner=0x7f020021;
-        public static final int students1=0x7f020022;
-        public static final int students2=0x7f020023;
-        public static final int students3=0x7f020024;
-        public static final int suites=0x7f020025;
-        public static final int twitter_button_image=0x7f020026;
-        public static final int twitter_normal=0x7f020027;
-        public static final int twitter_pressed=0x7f020028;
+        public static final int common_signin_btn_icon_dark=0x7f020004;
+        public static final int common_signin_btn_icon_disabled_dark=0x7f020005;
+        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020006;
+        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020007;
+        public static final int common_signin_btn_icon_disabled_light=0x7f020008;
+        public static final int common_signin_btn_icon_focus_dark=0x7f020009;
+        public static final int common_signin_btn_icon_focus_light=0x7f02000a;
+        public static final int common_signin_btn_icon_light=0x7f02000b;
+        public static final int common_signin_btn_icon_normal_dark=0x7f02000c;
+        public static final int common_signin_btn_icon_normal_light=0x7f02000d;
+        public static final int common_signin_btn_icon_pressed_dark=0x7f02000e;
+        public static final int common_signin_btn_icon_pressed_light=0x7f02000f;
+        public static final int common_signin_btn_text_dark=0x7f020010;
+        public static final int common_signin_btn_text_disabled_dark=0x7f020011;
+        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020012;
+        public static final int common_signin_btn_text_disabled_focus_light=0x7f020013;
+        public static final int common_signin_btn_text_disabled_light=0x7f020014;
+        public static final int common_signin_btn_text_focus_dark=0x7f020015;
+        public static final int common_signin_btn_text_focus_light=0x7f020016;
+        public static final int common_signin_btn_text_light=0x7f020017;
+        public static final int common_signin_btn_text_normal_dark=0x7f020018;
+        public static final int common_signin_btn_text_normal_light=0x7f020019;
+        public static final int common_signin_btn_text_pressed_dark=0x7f02001a;
+        public static final int common_signin_btn_text_pressed_light=0x7f02001b;
+        public static final int facebook_button_image=0x7f02001c;
+        public static final int facebook_normal=0x7f02001d;
+        public static final int facebook_pressed=0x7f02001e;
+        public static final int gather=0x7f02001f;
+        public static final int googleplus_button_image=0x7f020020;
+        public static final int googleplus_normal=0x7f020021;
+        public static final int googleplus_pressed=0x7f020022;
+        public static final int ic_action_armchair=0x7f020023;
+        public static final int ic_action_book=0x7f020024;
+        public static final int ic_action_document=0x7f020025;
+        public static final int ic_action_home=0x7f020026;
+        public static final int ic_action_line_chart=0x7f020027;
+        public static final int ic_action_map=0x7f020028;
+        public static final int ic_action_signal=0x7f020029;
+        public static final int ic_action_users=0x7f02002a;
+        public static final int ic_drawer=0x7f02002b;
+        public static final int ic_launcher=0x7f02002c;
+        public static final int ic_plusone_medium_off_client=0x7f02002d;
+        public static final int ic_plusone_small_off_client=0x7f02002e;
+        public static final int ic_plusone_standard_off_client=0x7f02002f;
+        public static final int ic_plusone_tall_off_client=0x7f020030;
+        public static final int innovators=0x7f020031;
+        public static final int jim=0x7f020032;
+        public static final int launch_image=0x7f020033;
+        public static final int lawrence=0x7f020034;
+        public static final int linkedin_button_image=0x7f020035;
+        public static final int linkedin_normal=0x7f020036;
+        public static final int linkedin_pressed=0x7f020037;
+        public static final int list_item_normal=0x7f020038;
+        public static final int list_item_pressed=0x7f020039;
+        public static final int list_item_selector=0x7f02003a;
+        public static final int logo=0x7f02003b;
+        public static final int meryl=0x7f02003c;
+        public static final int rounded_corner=0x7f02003d;
+        public static final int students1=0x7f02003e;
+        public static final int students2=0x7f02003f;
+        public static final int students3=0x7f020040;
+        public static final int suites=0x7f020041;
+        public static final int twitter_button_image=0x7f020042;
+        public static final int twitter_normal=0x7f020043;
+        public static final int twitter_pressed=0x7f020044;
     }
     public static final class id {
-        public static final int aboutTextView=0x7f090001;
-        public static final int aboutTheDeveloperFirstBlock=0x7f090000;
-        public static final int aboutTheDeveloperTextView=0x7f090003;
-        public static final int accelerateTextView=0x7f090064;
-        public static final int accessTextView=0x7f090095;
-        public static final int action_settings=0x7f0900b9;
-        public static final int activeJunkyParagraphTextView=0x7f09000b;
-        public static final int activeJunkyTitleTextView=0x7f09000a;
-        public static final int andreDurandTextView=0x7f090021;
-        public static final int anthonyFrancoTextView=0x7f090024;
-        public static final int bartLorangTextView=0x7f09002b;
-        public static final int bradFeldTextView=0x7f090023;
-        public static final int brentHandlerTextView=0x7f090026;
-        public static final int cabinetTextView=0x7f090092;
-        public static final int capitalFirstBlock=0x7f090004;
-        public static final int capitalSecondBlock=0x7f090007;
-        public static final int checkMark1=0x7f090078;
-        public static final int checkMark10=0x7f090090;
-        public static final int checkMark11=0x7f090091;
-        public static final int checkMark12=0x7f090093;
-        public static final int checkMark13=0x7f090094;
-        public static final int checkMark14=0x7f090096;
-        public static final int checkMark15=0x7f090097;
-        public static final int checkMark16=0x7f09009a;
-        public static final int checkMark17=0x7f09009c;
-        public static final int checkMark18=0x7f09009e;
-        public static final int checkMark2=0x7f090079;
-        public static final int checkMark3=0x7f09007a;
-        public static final int checkMark4=0x7f09007c;
-        public static final int checkMark5=0x7f09007d;
-        public static final int checkMark6=0x7f09007e;
-        public static final int checkMark7=0x7f090080;
-        public static final int checkMark8=0x7f090081;
-        public static final int checkMark9=0x7f090082;
-        public static final int chrisFounderTextView=0x7f0900ad;
-        public static final int chrisOnanImageView=0x7f0900b5;
-        public static final int chrisOnanTextView=0x7f0900ac;
-        public static final int chrisTwitterTextView=0x7f0900ae;
-        public static final int communityFirstBlock=0x7f090014;
-        public static final int communityFirstBlockTextView=0x7f090016;
-        public static final int communitySecondBlock=0x7f090017;
-        public static final int communitySecondBlockTextView=0x7f090019;
-        public static final int communityTextView=0x7f090015;
-        public static final int communityThirdBlock=0x7f09001b;
-        public static final int communityThirdBlockTextView=0x7f09001e;
-        public static final int community_fragment=0x7f090012;
-        public static final int conferenceRoomTextView=0x7f09008c;
-        public static final int connectTextView=0x7f090087;
-        public static final int contactUsFirstBlock=0x7f090036;
-        public static final int contactUsTextView=0x7f090037;
-        public static final int content_frame=0x7f090061;
-        public static final int curriculumBackEndTechnologiesTextView=0x7f090048;
-        public static final int curriculumCourseLengthTextView=0x7f09004a;
-        public static final int curriculumFirstBlock=0x7f090041;
-        public static final int curriculumFirstBlockTextView=0x7f090043;
-        public static final int curriculumFrontEndTechnologiesTextView=0x7f090047;
-        public static final int curriculumSecondBlock=0x7f090044;
-        public static final int curriculumSecondBlockInnerCell1=0x7f090046;
-        public static final int curriculumSecondBlockInnerCell2=0x7f09004b;
-        public static final int curriculumTextView=0x7f090045;
-        public static final int curriculumToolsAndSkillsTextView=0x7f090049;
-        public static final int dabbleParagraphTextView=0x7f09000f;
-        public static final int dabbleTitleTextView=0x7f09000e;
-        public static final int davidCohenTextView=0x7f090020;
-        public static final int detailsLargeTextBox=0x7f09003d;
-        public static final int detailsTextView=0x7f09003c;
-        public static final int digitalSignageTextView=0x7f090084;
-        public static final int dividerLineFirstBlock=0x7f090002;
-        public static final int dividerLineSecondBlock=0x7f090009;
-        public static final int dividerLineThirdBlock=0x7f09001d;
-        public static final int drawer_layout=0x7f090060;
-        public static final int emailRequiredTextView=0x7f09003a;
-        public static final int emailTextField=0x7f09003b;
-        public static final int exteriorSignageTextView=0x7f090086;
-        public static final int facebookIconImageView=0x7f090059;
-        public static final int firstPriceTextView=0x7f0900a0;
-        public static final int firstTweetTextView=0x7f090054;
-        public static final int followUsTextView=0x7f090058;
-        public static final int fragContainer=0x7f09001a;
-        public static final int fullyFurnishedTextView=0x7f090077;
-        public static final int gSuitesDescriptionTextView=0x7f09006d;
-        public static final int gSuitesTextView=0x7f09006c;
-        public static final int galvanizeAddressTextView=0x7f09005f;
-        public static final int galvanize_online=0x7f0900ba;
-        public static final int gatherDescriptionTextView=0x7f090069;
-        public static final int gatherTextView=0x7f090068;
-        public static final int googlePlusIconImageView=0x7f09005c;
-        public static final int gregBylesTextView=0x7f090031;
-        public static final int hearAboutLargeTextBox=0x7f09003f;
-        public static final int hearAboutTextView=0x7f09003e;
-        public static final int homeFirstBlock=0x7f09004f;
-        public static final int homeFirstBlockTextView=0x7f090051;
-        public static final int homeSecondBlock=0x7f090052;
-        public static final int homeThirdBlock=0x7f090057;
-        public static final int honoraryTextView=0x7f09001c;
-        public static final int icon=0x7f0900b7;
-        public static final int innovatorsImageView=0x7f090013;
-        public static final int interiorSignageTextView=0x7f090085;
-        public static final int investFirstBlockTextView=0x7f090006;
-        public static final int investTextView=0x7f090005;
-        public static final int jasonKellerTextView=0x7f090035;
-        public static final int jbHolstonTextView=0x7f09002a;
-        public static final int jimDeterImageView=0x7f0900b3;
-        public static final int jimDetersTextView=0x7f0900a6;
-        public static final int jimFounderTextView=0x7f0900a7;
-        public static final int jimFranklinTextView=0x7f090025;
-        public static final int jimTwitterTextView=0x7f0900a8;
-        public static final int johnRaederTextView=0x7f09002d;
-        public static final int jonNordmarkTextView=0x7f09002c;
-        public static final int josephZellTextView=0x7f090034;
-        public static final int keenIOParagraphTextView=0x7f09000d;
-        public static final int keenIOTitleTextView=0x7f09000c;
-        public static final int lawrenceFounderTextView=0x7f0900aa;
-        public static final int lawrenceMandesImageView=0x7f0900b4;
-        public static final int lawrenceMandesTextView=0x7f0900a9;
-        public static final int lawrenceTwitterTextView=0x7f0900ab;
-        public static final int learnTextView=0x7f090042;
-        public static final int limitedCustomizationTextView=0x7f090099;
-        public static final int linkedInIconImageView=0x7f09005b;
-        public static final int locateUsFirstBlock=0x7f09005d;
-        public static final int locateUsTextView=0x7f09005e;
-        public static final int lockableTextView=0x7f09009b;
-        public static final int lukeBeattyTextView=0x7f09001f;
-        public static final int markAubleTextView=0x7f090030;
-        public static final int markHopkinsTextView=0x7f090029;
-        public static final int meetTheTeamBlockInnerCell1=0x7f0900a5;
-        public static final int meetTheTeamBlockInnerCell2=0x7f0900b2;
-        public static final int merylFounderTextView=0x7f0900b0;
-        public static final int merylMcDonaldImageView=0x7f0900b6;
-        public static final int merylMcDonaldTextView=0x7f0900af;
-        public static final int merylTwitterTextView=0x7f0900b1;
-        public static final int nameRequiredTextView=0x7f090038;
-        public static final int nameTextField=0x7f090039;
-        public static final int nancyPhillipsTextView=0x7f09002e;
-        public static final int navigation_drawer=0x7f090062;
-        public static final int nourishTextView=0x7f09007b;
-        public static final int pangeaOrganicsParagraphTextView=0x7f090011;
-        public static final int pangeaOrganicsTitleTextView=0x7f090010;
-        public static final int perryEvansTextView=0x7f090022;
-        public static final int peteHudsonTextView=0x7f09002f;
-        public static final int phoneTextView=0x7f09008b;
-        public static final int pleaseInquireTextView=0x7f0900a2;
-        public static final int portfolioTextView=0x7f090008;
-        public static final int pricingTextView=0x7f09009f;
-        public static final int privateWiredTextView=0x7f09008a;
-        public static final int rentableTextView1=0x7f09008d;
-        public static final int rentableTextView2=0x7f09008e;
-        public static final int reservationPreferenceTextView=0x7f09009d;
-        public static final int reservedTextView=0x7f09008f;
-        public static final int scalableSpaceTextView=0x7f090098;
-        public static final int scottChasinTextView=0x7f090032;
-        public static final int seatTextView=0x7f090074;
-        public static final int secondPriceTextView=0x7f0900a1;
-        public static final int secondTweetTextView=0x7f090055;
-        public static final int sendMessageButton=0x7f090040;
-        public static final int sharedWiredTextView=0x7f090089;
-        public static final int sharedWirelessTextView=0x7f090088;
-        public static final int shayneHigdonTextView=0x7f090027;
-        public static final int signageTextView=0x7f090083;
-        public static final int spaceData=0x7f090073;
-        public static final int stationTextView=0x7f090075;
-        public static final int steveHalstadtTextView=0x7f090033;
-        public static final int studentsImageView1=0x7f09004c;
-        public static final int studentsImageView2=0x7f09004d;
-        public static final int studentsImageView3=0x7f09004e;
-        public static final int suiteTextView=0x7f090076;
-        public static final int teamTextView=0x7f0900a4;
-        public static final int theAtriumDescriptionTextView=0x7f09006b;
-        public static final int theAtriumTextView=0x7f09006a;
-        public static final int theSpaceFirstBlock=0x7f090063;
-        public static final int theSpaceFirstBlockTextView=0x7f090065;
-        public static final int theSpaceImageView1=0x7f09006f;
-        public static final int theSpaceImageView2=0x7f090070;
-        public static final int theSpaceImageView3=0x7f090071;
-        public static final int theSpaceSecondBlock=0x7f090066;
-        public static final int theSpaceSecondBlockInnerCell1=0x7f090067;
-        public static final int theSpaceSecondBlockInnerCell2=0x7f09006e;
-        public static final int theSpaceThirdBlock=0x7f090072;
-        public static final int theTeamFirstBlock=0x7f0900a3;
-        public static final int thirdTweetTextView=0x7f090056;
-        public static final int title=0x7f0900b8;
-        public static final int tomHigleyTextView=0x7f090028;
-        public static final int twitterHandleTextView=0x7f090053;
-        public static final int twitterIconImageView=0x7f09005a;
-        public static final int unwindTextView=0x7f09007f;
-        public static final int visionTextView=0x7f090018;
-        public static final int welcomeTextView=0x7f090050;
+        public static final int aboutTextView=0x7f050006;
+        public static final int aboutTheDeveloperFirstBlock=0x7f050005;
+        public static final int aboutTheDeveloperTextView=0x7f050008;
+        public static final int accelerateTextView=0x7f05006b;
+        public static final int accessTextView=0x7f05009c;
+        public static final int action_settings=0x7f0500c0;
+        public static final int activeJunkyParagraphTextView=0x7f050010;
+        public static final int activeJunkyTitleTextView=0x7f05000f;
+        public static final int andreDurandTextView=0x7f050026;
+        public static final int anthonyFrancoTextView=0x7f050029;
+        public static final int bartLorangTextView=0x7f050030;
+        public static final int bradFeldTextView=0x7f050028;
+        public static final int brentHandlerTextView=0x7f05002b;
+        public static final int cabinetTextView=0x7f050099;
+        public static final int capitalFirstBlock=0x7f050009;
+        public static final int capitalSecondBlock=0x7f05000c;
+        public static final int checkMark1=0x7f05007f;
+        public static final int checkMark10=0x7f050097;
+        public static final int checkMark11=0x7f050098;
+        public static final int checkMark12=0x7f05009a;
+        public static final int checkMark13=0x7f05009b;
+        public static final int checkMark14=0x7f05009d;
+        public static final int checkMark15=0x7f05009e;
+        public static final int checkMark16=0x7f0500a1;
+        public static final int checkMark17=0x7f0500a3;
+        public static final int checkMark18=0x7f0500a5;
+        public static final int checkMark2=0x7f050080;
+        public static final int checkMark3=0x7f050081;
+        public static final int checkMark4=0x7f050083;
+        public static final int checkMark5=0x7f050084;
+        public static final int checkMark6=0x7f050085;
+        public static final int checkMark7=0x7f050087;
+        public static final int checkMark8=0x7f050088;
+        public static final int checkMark9=0x7f050089;
+        public static final int chrisFounderTextView=0x7f0500b4;
+        public static final int chrisOnanImageView=0x7f0500bc;
+        public static final int chrisOnanTextView=0x7f0500b3;
+        public static final int chrisTwitterTextView=0x7f0500b5;
+        public static final int communityFirstBlock=0x7f050019;
+        public static final int communityFirstBlockTextView=0x7f05001b;
+        public static final int communitySecondBlock=0x7f05001c;
+        public static final int communitySecondBlockTextView=0x7f05001e;
+        public static final int communityTextView=0x7f05001a;
+        public static final int communityThirdBlock=0x7f050020;
+        public static final int communityThirdBlockTextView=0x7f050023;
+        public static final int community_fragment=0x7f050017;
+        public static final int conferenceRoomTextView=0x7f050093;
+        public static final int connectTextView=0x7f05008e;
+        public static final int contactUsFirstBlock=0x7f05003b;
+        public static final int contactUsTextView=0x7f05003c;
+        public static final int content_frame=0x7f050068;
+        public static final int curriculumBackEndTechnologiesTextView=0x7f05004d;
+        public static final int curriculumCourseLengthTextView=0x7f05004f;
+        public static final int curriculumFirstBlock=0x7f050046;
+        public static final int curriculumFirstBlockTextView=0x7f050048;
+        public static final int curriculumFrontEndTechnologiesTextView=0x7f05004c;
+        public static final int curriculumSecondBlock=0x7f050049;
+        public static final int curriculumSecondBlockInnerCell1=0x7f05004b;
+        public static final int curriculumSecondBlockInnerCell2=0x7f050050;
+        public static final int curriculumTextView=0x7f05004a;
+        public static final int curriculumToolsAndSkillsTextView=0x7f05004e;
+        public static final int dabbleParagraphTextView=0x7f050014;
+        public static final int dabbleTitleTextView=0x7f050013;
+        public static final int davidCohenTextView=0x7f050025;
+        public static final int detailsLargeTextBox=0x7f050042;
+        public static final int detailsTextView=0x7f050041;
+        public static final int digitalSignageTextView=0x7f05008b;
+        public static final int dividerLineFirstBlock=0x7f050007;
+        public static final int dividerLineSecondBlock=0x7f05000e;
+        public static final int dividerLineThirdBlock=0x7f050022;
+        public static final int drawer_layout=0x7f050067;
+        public static final int emailRequiredTextView=0x7f05003f;
+        public static final int emailTextField=0x7f050040;
+        public static final int exteriorSignageTextView=0x7f05008d;
+        public static final int facebookIconImageView=0x7f05005e;
+        public static final int firstPriceTextView=0x7f0500a7;
+        public static final int firstTweetTextView=0x7f050059;
+        public static final int followUsTextView=0x7f05005d;
+        public static final int fragContainer=0x7f05001f;
+        public static final int fullyFurnishedTextView=0x7f05007e;
+        public static final int gSuitesDescriptionTextView=0x7f050074;
+        public static final int gSuitesTextView=0x7f050073;
+        public static final int galvanizeAddressTextView=0x7f050064;
+        public static final int galvanizePhoneNumberTextView=0x7f050065;
+        public static final int galvanize_online=0x7f0500c1;
+        public static final int gatherDescriptionTextView=0x7f050070;
+        public static final int gatherTextView=0x7f05006f;
+        public static final int googlePlusIconImageView=0x7f050061;
+        public static final int gregBylesTextView=0x7f050036;
+        public static final int hearAboutLargeTextBox=0x7f050044;
+        public static final int hearAboutTextView=0x7f050043;
+        public static final int homeFirstBlock=0x7f050054;
+        public static final int homeFirstBlockTextView=0x7f050056;
+        public static final int homeSecondBlock=0x7f050057;
+        public static final int homeThirdBlock=0x7f05005c;
+        public static final int honoraryTextView=0x7f050021;
+        public static final int hybrid=0x7f050004;
+        public static final int icon=0x7f0500be;
+        public static final int innovatorsImageView=0x7f050018;
+        public static final int interiorSignageTextView=0x7f05008c;
+        public static final int investFirstBlockTextView=0x7f05000b;
+        public static final int investTextView=0x7f05000a;
+        public static final int jasonKellerTextView=0x7f05003a;
+        public static final int jbHolstonTextView=0x7f05002f;
+        public static final int jimDeterImageView=0x7f0500ba;
+        public static final int jimDetersTextView=0x7f0500ad;
+        public static final int jimFounderTextView=0x7f0500ae;
+        public static final int jimFranklinTextView=0x7f05002a;
+        public static final int jimTwitterTextView=0x7f0500af;
+        public static final int johnRaederTextView=0x7f050032;
+        public static final int jonNordmarkTextView=0x7f050031;
+        public static final int josephZellTextView=0x7f050039;
+        public static final int keenIOParagraphTextView=0x7f050012;
+        public static final int keenIOTitleTextView=0x7f050011;
+        public static final int lawrenceFounderTextView=0x7f0500b1;
+        public static final int lawrenceMandesImageView=0x7f0500bb;
+        public static final int lawrenceMandesTextView=0x7f0500b0;
+        public static final int lawrenceTwitterTextView=0x7f0500b2;
+        public static final int learnTextView=0x7f050047;
+        public static final int limitedCustomizationTextView=0x7f0500a0;
+        public static final int linkedInIconImageView=0x7f050060;
+        public static final int locateUsFirstBlock=0x7f050062;
+        public static final int locateUsTextView=0x7f050063;
+        public static final int lockableTextView=0x7f0500a2;
+        public static final int lukeBeattyTextView=0x7f050024;
+        public static final int mapsContainer=0x7f050066;
+        public static final int markAubleTextView=0x7f050035;
+        public static final int markHopkinsTextView=0x7f05002e;
+        public static final int meetTheTeamBlockInnerCell1=0x7f0500ac;
+        public static final int meetTheTeamBlockInnerCell2=0x7f0500b9;
+        public static final int merylFounderTextView=0x7f0500b7;
+        public static final int merylMcDonaldImageView=0x7f0500bd;
+        public static final int merylMcDonaldTextView=0x7f0500b6;
+        public static final int merylTwitterTextView=0x7f0500b8;
+        public static final int nameRequiredTextView=0x7f05003d;
+        public static final int nameTextField=0x7f05003e;
+        public static final int nancyPhillipsTextView=0x7f050033;
+        public static final int navigation_drawer=0x7f050069;
+        public static final int none=0x7f050000;
+        public static final int normal=0x7f050001;
+        public static final int nourishTextView=0x7f050082;
+        public static final int pangeaOrganicsParagraphTextView=0x7f050016;
+        public static final int pangeaOrganicsTitleTextView=0x7f050015;
+        public static final int perryEvansTextView=0x7f050027;
+        public static final int peteHudsonTextView=0x7f050034;
+        public static final int phoneTextView=0x7f050092;
+        public static final int pleaseInquireTextView=0x7f0500a9;
+        public static final int portfolioTextView=0x7f05000d;
+        public static final int pricingTextView=0x7f0500a6;
+        public static final int privateWiredTextView=0x7f050091;
+        public static final int rentableTextView1=0x7f050094;
+        public static final int rentableTextView2=0x7f050095;
+        public static final int reservationPreferenceTextView=0x7f0500a4;
+        public static final int reservedTextView=0x7f050096;
+        public static final int satellite=0x7f050002;
+        public static final int scalableSpaceTextView=0x7f05009f;
+        public static final int scottChasinTextView=0x7f050037;
+        public static final int seatTextView=0x7f05007b;
+        public static final int secondPriceTextView=0x7f0500a8;
+        public static final int secondTweetTextView=0x7f05005a;
+        public static final int sendMessageButton=0x7f050045;
+        public static final int sharedWiredTextView=0x7f050090;
+        public static final int sharedWirelessTextView=0x7f05008f;
+        public static final int shayneHigdonTextView=0x7f05002c;
+        public static final int signageTextView=0x7f05008a;
+        public static final int spaceData=0x7f05007a;
+        public static final int stationTextView=0x7f05007c;
+        public static final int steveHalstadtTextView=0x7f050038;
+        public static final int studentsImageView1=0x7f050051;
+        public static final int studentsImageView2=0x7f050052;
+        public static final int studentsImageView3=0x7f050053;
+        public static final int suiteTextView=0x7f05007d;
+        public static final int teamTextView=0x7f0500ab;
+        public static final int terrain=0x7f050003;
+        public static final int theAtriumDescriptionTextView=0x7f050072;
+        public static final int theAtriumTextView=0x7f050071;
+        public static final int theSpaceFirstBlock=0x7f05006a;
+        public static final int theSpaceFirstBlockTextView=0x7f05006c;
+        public static final int theSpaceImageView1=0x7f050076;
+        public static final int theSpaceImageView2=0x7f050077;
+        public static final int theSpaceImageView3=0x7f050078;
+        public static final int theSpaceSecondBlock=0x7f05006d;
+        public static final int theSpaceSecondBlockInnerCell1=0x7f05006e;
+        public static final int theSpaceSecondBlockInnerCell2=0x7f050075;
+        public static final int theSpaceThirdBlock=0x7f050079;
+        public static final int theTeamFirstBlock=0x7f0500aa;
+        public static final int thirdTweetTextView=0x7f05005b;
+        public static final int title=0x7f0500bf;
+        public static final int tomHigleyTextView=0x7f05002d;
+        public static final int twitterHandleTextView=0x7f050058;
+        public static final int twitterIconImageView=0x7f05005f;
+        public static final int unwindTextView=0x7f050086;
+        public static final int visionTextView=0x7f05001d;
+        public static final int welcomeTextView=0x7f050055;
+    }
+    public static final class integer {
+        public static final int google_play_services_version=0x7f070000;
     }
     public static final class layout {
         public static final int activity_about_the_developer=0x7f030000;
@@ -275,144 +482,239 @@ public final class R {
         public static final int drawer_list_item=0x7f03000b;
     }
     public static final class menu {
-        public static final int galvanize=0x7f080000;
+        public static final int galvanize=0x7f0b0000;
     }
     public static final class string {
         /**  About The Developer Strings 
          */
-        public static final int about=0x7f050071;
-        public static final int about_the_developer=0x7f050072;
+        public static final int about=0x7f06008c;
+        public static final int about_the_developer=0x7f06008d;
         /**  The Space Activity Strings 
          */
-        public static final int accelerate=0x7f050038;
-        public static final int access=0x7f050053;
-        public static final int action_settings=0x7f050001;
-        public static final int activeJunkyBlock=0x7f05000d;
-        public static final int active_junky=0x7f05000c;
-        public static final int andre_durand=0x7f05001c;
-        public static final int anthony_franco=0x7f05001f;
-        public static final int app_name=0x7f050000;
-        public static final int atrium=0x7f05003c;
-        public static final int atriumDescription=0x7f05003d;
-        public static final int backEndTechnologies=0x7f050035;
-        public static final int bart_lorang=0x7f050026;
-        public static final int brad_feld=0x7f05001e;
-        public static final int brent_handler=0x7f050021;
-        public static final int cabinet=0x7f050052;
-        public static final int capitalFirstBlock=0x7f05000a;
-        public static final int chris=0x7f050063;
-        public static final int chrisonan=0x7f050065;
+        public static final int accelerate=0x7f060052;
+        public static final int access=0x7f06006d;
+        public static final int action_settings=0x7f06001b;
+        public static final int activeJunkyBlock=0x7f060027;
+        public static final int active_junky=0x7f060026;
+        public static final int andre_durand=0x7f060036;
+        public static final int anthony_franco=0x7f060039;
+        public static final int app_name=0x7f06001a;
+        public static final int atrium=0x7f060056;
+        public static final int atriumDescription=0x7f060057;
+        /**   Title for notification shown when GooglePlayServices needs to be
+        enabled for a application to work. [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_needs_enabling_title=0x7f060015;
+        /**   Title for notification shown when GooglePlayServices needs to be
+        installed for a application to work. [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_needs_installation_title=0x7f060016;
+        /**   Title for notification shown when GooglePlayServices needs to be
+        udpated for a application to work. [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_needs_update_title=0x7f060017;
+        /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
+         */
+        public static final int auth_client_play_services_err_notification_msg=0x7f060018;
+        /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
+         */
+        public static final int auth_client_requested_by_msg=0x7f060019;
+        /**   Title for notification shown when a bad version of GooglePlayServices
+        has been installed and needs correction for an application to work.
+        [CHAR LIMIT=70] 
+         */
+        public static final int auth_client_using_bad_version_title=0x7f060014;
+        public static final int backEndTechnologies=0x7f06004f;
+        public static final int bart_lorang=0x7f060040;
+        public static final int brad_feld=0x7f060038;
+        public static final int brent_handler=0x7f06003b;
+        public static final int cabinet=0x7f06006c;
+        public static final int capitalFirstBlock=0x7f060024;
+        public static final int chris=0x7f06007d;
+        public static final int chrisonan=0x7f06007f;
+        /**  Button in confirmation dialog to enable Google Play services.  Clicking it
+        will direct user to application settings of Google Play services where they
+        can enable it [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_enable_button=0x7f060006;
+        /**  Message in confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_enable_text=0x7f060005;
+        /**  Title of confirmation dialog informing user they need to enable
+        Google Play services in application settings [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_enable_title=0x7f060004;
+        /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_install_button=0x7f060003;
+        /**  (For phones) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_install_text_phone=0x7f060001;
+        /**  (For tablets) Message in confirmation dialog informing user that
+        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_install_text_tablet=0x7f060002;
+        /**  Title of confirmation dialog informing user that they need to install
+        Google Play services (from Play Store) [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_install_title=0x7f060000;
+        /**  Message in confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_invalid_account_text=0x7f06000c;
+        /**  Title of confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_invalid_account_title=0x7f06000b;
+        /**  Message in confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_network_error_text=0x7f06000a;
+        /**  Title of confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_network_error_title=0x7f060009;
+        /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
+        services [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_unknown_issue=0x7f06000d;
+        /**  Message in confirmation dialog informing user that date on the device is not correct,
+    causing certificate checks to fail. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_unsupported_date_text=0x7f060010;
+        /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_unsupported_text=0x7f06000f;
+        /**  Title of confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_unsupported_title=0x7f06000e;
+        /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_update_button=0x7f060011;
+        /**  Message in confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_update_text=0x7f060008;
+        /**  Title of confirmation dialog informing user that they need to update
+        Google Play services (from Play Store) [CHAR LIMIT=40] 
+         */
+        public static final int common_google_play_services_update_title=0x7f060007;
+        /**  Sign-in button text [CHAR LIMIT=15] 
+         */
+        public static final int common_signin_button_text=0x7f060012;
+        /**  Long form sign-in button text [CHAR LIMIT=30] 
+         */
+        public static final int common_signin_button_text_long=0x7f060013;
         /**  Community Activity Strings 
          */
-        public static final int community=0x7f050014;
-        public static final int communityFirstBlock=0x7f050015;
-        public static final int communitySecondBlock=0x7f050017;
-        public static final int communityThirdBlock=0x7f050019;
-        public static final int community_director=0x7f050067;
-        public static final int conference_room=0x7f05004f;
-        public static final int connect=0x7f05004a;
+        public static final int community=0x7f06002e;
+        public static final int communityFirstBlock=0x7f06002f;
+        public static final int communitySecondBlock=0x7f060031;
+        public static final int communityThirdBlock=0x7f060033;
+        public static final int community_director=0x7f060081;
+        public static final int conference_room=0x7f060069;
+        public static final int connect=0x7f060064;
         /**  Contact Us Activity Strings 
          */
-        public static final int contact_us=0x7f050069;
-        public static final int courseLength=0x7f050037;
-        public static final int curriculum=0x7f050033;
-        public static final int curriculumFirstBlock=0x7f050032;
-        public static final int dabble=0x7f050010;
-        public static final int dabbleBlock=0x7f050011;
-        public static final int david_cohen=0x7f05001b;
-        public static final int desc=0x7f050003;
+        public static final int contact_us=0x7f060083;
+        public static final int courseLength=0x7f060051;
+        public static final int curriculum=0x7f06004d;
+        public static final int curriculumFirstBlock=0x7f06004c;
+        public static final int dabble=0x7f06002a;
+        public static final int dabbleBlock=0x7f06002b;
+        public static final int david_cohen=0x7f060035;
+        public static final int desc=0x7f06001d;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f050004;
-        public static final int details=0x7f05006c;
-        public static final int digital_signage=0x7f050047;
-        public static final int email_required=0x7f05006b;
-        public static final int exterior_signage=0x7f050049;
-        public static final int first_price=0x7f050059;
-        public static final int followUs=0x7f050008;
-        public static final int founder=0x7f05005e;
-        public static final int founder1=0x7f050061;
-        public static final int founder2=0x7f050064;
-        public static final int frontEndTechnologies=0x7f050034;
-        public static final int furnished=0x7f050043;
-        public static final int gSuites=0x7f05003e;
-        public static final int gSuitesDescription=0x7f05003f;
-        public static final int galvanize_address=0x7f050070;
-        public static final int galvanize_online=0x7f050002;
-        public static final int gather=0x7f05003a;
-        public static final int gatherDescription=0x7f05003b;
-        public static final int greg_byles=0x7f05002c;
-        public static final int hear_about=0x7f05006d;
-        public static final int homeFirstBlock=0x7f050006;
-        public static final int honorary=0x7f050018;
-        public static final int interior_signage=0x7f050048;
+        public static final int desc_list_item_icon=0x7f06001e;
+        public static final int details=0x7f060086;
+        public static final int digital_signage=0x7f060061;
+        public static final int email_required=0x7f060085;
+        public static final int exterior_signage=0x7f060063;
+        public static final int first_price=0x7f060073;
+        public static final int followUs=0x7f060022;
+        public static final int founder=0x7f060078;
+        public static final int founder1=0x7f06007b;
+        public static final int founder2=0x7f06007e;
+        public static final int frontEndTechnologies=0x7f06004e;
+        public static final int furnished=0x7f06005d;
+        public static final int gSuites=0x7f060058;
+        public static final int gSuitesDescription=0x7f060059;
+        public static final int galvanize_address=0x7f06008a;
+        public static final int galvanize_number=0x7f06008b;
+        public static final int galvanize_online=0x7f06001c;
+        public static final int gather=0x7f060054;
+        public static final int gatherDescription=0x7f060055;
+        public static final int greg_byles=0x7f060046;
+        public static final int hear_about=0x7f060087;
+        public static final int homeFirstBlock=0x7f060020;
+        public static final int honorary=0x7f060032;
+        public static final int interior_signage=0x7f060062;
         /**  Capital Activity Strings 
          */
-        public static final int invest=0x7f050009;
-        public static final int jason_keller=0x7f050030;
-        public static final int jb_holston=0x7f050025;
-        public static final int jim=0x7f05005d;
-        public static final int jim_franklin=0x7f050020;
-        public static final int john_raeder=0x7f050028;
-        public static final int jon_nordmark=0x7f050027;
-        public static final int joseph_zell=0x7f05002f;
-        public static final int keenIOBlock=0x7f05000f;
-        public static final int keen_io=0x7f05000e;
-        public static final int lawrence=0x7f050060;
-        public static final int ldmandes=0x7f050062;
+        public static final int invest=0x7f060023;
+        public static final int jason_keller=0x7f06004a;
+        public static final int jb_holston=0x7f06003f;
+        public static final int jim=0x7f060077;
+        public static final int jim_franklin=0x7f06003a;
+        public static final int john_raeder=0x7f060042;
+        public static final int jon_nordmark=0x7f060041;
+        public static final int joseph_zell=0x7f060049;
+        public static final int keenIOBlock=0x7f060029;
+        public static final int keen_io=0x7f060028;
+        public static final int lawrence=0x7f06007a;
+        public static final int ldmandes=0x7f06007c;
         /**  Curriculum Activity Strings 
          */
-        public static final int learn=0x7f050031;
-        public static final int limited_customization=0x7f050055;
+        public static final int learn=0x7f06004b;
+        public static final int limited_customization=0x7f06006f;
         /**  Locate Us Activity Strings 
          */
-        public static final int locate=0x7f05006f;
-        public static final int lockable_suite=0x7f050056;
-        public static final int luke_beatty=0x7f05001a;
-        public static final int mark_auble=0x7f05002b;
-        public static final int mark_hopkins=0x7f050024;
-        public static final int meryl=0x7f050066;
-        public static final int name_required=0x7f05006a;
-        public static final int nancy_phillips=0x7f050029;
-        public static final int nourish=0x7f050044;
-        public static final int pangeaOrganicsBlock=0x7f050013;
-        public static final int pangea_organics=0x7f050012;
-        public static final int perry_evans=0x7f05001d;
-        public static final int pete_hudson=0x7f05002a;
-        public static final int phone=0x7f05004e;
-        public static final int please_inquire=0x7f05005b;
-        public static final int portfolio=0x7f05000b;
-        public static final int pricing=0x7f050058;
-        public static final int private_wired=0x7f05004d;
-        public static final int rentable=0x7f050050;
-        public static final int reservation_preference=0x7f050057;
-        public static final int reserved=0x7f050051;
-        public static final int scalable_space=0x7f050054;
-        public static final int scott_chasin=0x7f05002d;
-        public static final int seat=0x7f050040;
-        public static final int second_price=0x7f05005a;
-        public static final int send_message=0x7f05006e;
-        public static final int shared_wired=0x7f05004c;
-        public static final int shared_wireless=0x7f05004b;
-        public static final int shayne_higdon=0x7f050022;
-        public static final int signage=0x7f050046;
-        public static final int station=0x7f050041;
-        public static final int steve_halstadt=0x7f05002e;
-        public static final int suite=0x7f050042;
+        public static final int locate=0x7f060089;
+        public static final int lockable_suite=0x7f060070;
+        public static final int luke_beatty=0x7f060034;
+        public static final int mark_auble=0x7f060045;
+        public static final int mark_hopkins=0x7f06003e;
+        public static final int meryl=0x7f060080;
+        public static final int name_required=0x7f060084;
+        public static final int nancy_phillips=0x7f060043;
+        public static final int nourish=0x7f06005e;
+        public static final int pangeaOrganicsBlock=0x7f06002d;
+        public static final int pangea_organics=0x7f06002c;
+        public static final int perry_evans=0x7f060037;
+        public static final int pete_hudson=0x7f060044;
+        public static final int phone=0x7f060068;
+        public static final int please_inquire=0x7f060075;
+        public static final int portfolio=0x7f060025;
+        public static final int pricing=0x7f060072;
+        public static final int private_wired=0x7f060067;
+        public static final int rentable=0x7f06006a;
+        public static final int reservation_preference=0x7f060071;
+        public static final int reserved=0x7f06006b;
+        public static final int scalable_space=0x7f06006e;
+        public static final int scott_chasin=0x7f060047;
+        public static final int seat=0x7f06005a;
+        public static final int second_price=0x7f060074;
+        public static final int send_message=0x7f060088;
+        public static final int shared_wired=0x7f060066;
+        public static final int shared_wireless=0x7f060065;
+        public static final int shayne_higdon=0x7f06003c;
+        public static final int signage=0x7f060060;
+        public static final int station=0x7f06005b;
+        public static final int steve_halstadt=0x7f060048;
+        public static final int suite=0x7f06005c;
         /**  The Team Activity Strings 
          */
-        public static final int team=0x7f05005c;
-        public static final int theSpaceFirstBlock=0x7f050039;
-        public static final int tom_higley=0x7f050023;
-        public static final int toolsAndSkills=0x7f050036;
-        public static final int twitterHandle=0x7f050007;
-        public static final int unwind=0x7f050045;
-        public static final int vision=0x7f050016;
+        public static final int team=0x7f060076;
+        public static final int theSpaceFirstBlock=0x7f060053;
+        public static final int tom_higley=0x7f06003d;
+        public static final int toolsAndSkills=0x7f060050;
+        public static final int twitterHandle=0x7f060021;
+        public static final int unwind=0x7f06005f;
+        public static final int vision=0x7f060030;
         /**  Home Activity Strings 
          */
-        public static final int welcome=0x7f050005;
-        public static final int wheresmer=0x7f050068;
-        public static final int yodeets=0x7f05005f;
+        public static final int welcome=0x7f06001f;
+        public static final int wheresmer=0x7f060082;
+        public static final int yodeets=0x7f060079;
     }
     public static final class style {
         /** 
@@ -436,11 +738,332 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f0a0000;
         /**  Application theme. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int AppTheme_ActionBarStyle=0x7f070002;
-        public static final int AppTheme_ActionBarStyle_TitleTextStyle=0x7f070003;
+        public static final int AppTheme=0x7f0a0001;
+        public static final int AppTheme_ActionBarStyle=0x7f0a0002;
+        public static final int AppTheme_ActionBarStyle_TitleTextStyle=0x7f0a0003;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a AdsAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.solitondesignlab.galvanize:adSize}</code></td><td>
+    The size of the ad.</td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.solitondesignlab.galvanize:adSizes}</code></td><td>
+    A comma-separated list of the supported ad sizes.</td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.solitondesignlab.galvanize:adUnitId}</code></td><td> The ad unit ID.</td></tr>
+           </table>
+           @see #AdsAttrs_adSize
+           @see #AdsAttrs_adSizes
+           @see #AdsAttrs_adUnitId
+         */
+        public static final int[] AdsAttrs = {
+            0x7f010000, 0x7f010001, 0x7f010002
+        };
+        /**
+          <p>
+          @attr description
+          
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+    
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.solitondesignlab.galvanize:adSize
+        */
+        public static final int AdsAttrs_adSize = 0;
+        /**
+          <p>
+          @attr description
+          
+    A comma-separated list of the supported ad sizes. The sizes must be one of
+    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
+    
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.solitondesignlab.galvanize:adSizes
+        */
+        public static final int AdsAttrs_adSizes = 1;
+        /**
+          <p>
+          @attr description
+           The ad unit ID. 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.solitondesignlab.galvanize:adUnitId
+        */
+        public static final int AdsAttrs_adUnitId = 2;
+        /** Attributes that can be used with a MapAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.solitondesignlab.galvanize:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.solitondesignlab.galvanize:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.solitondesignlab.galvanize:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.solitondesignlab.galvanize:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.solitondesignlab.galvanize:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.solitondesignlab.galvanize:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.solitondesignlab.galvanize:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.solitondesignlab.galvanize:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.solitondesignlab.galvanize:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.solitondesignlab.galvanize:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.solitondesignlab.galvanize:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.solitondesignlab.galvanize:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.solitondesignlab.galvanize:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.solitondesignlab.galvanize:zOrderOnTop}</code></td><td></td></tr>
+           </table>
+           @see #MapAttrs_cameraBearing
+           @see #MapAttrs_cameraTargetLat
+           @see #MapAttrs_cameraTargetLng
+           @see #MapAttrs_cameraTilt
+           @see #MapAttrs_cameraZoom
+           @see #MapAttrs_mapType
+           @see #MapAttrs_uiCompass
+           @see #MapAttrs_uiRotateGestures
+           @see #MapAttrs_uiScrollGestures
+           @see #MapAttrs_uiTiltGestures
+           @see #MapAttrs_uiZoomControls
+           @see #MapAttrs_uiZoomGestures
+           @see #MapAttrs_useViewLifecycle
+           @see #MapAttrs_zOrderOnTop
+         */
+        public static final int[] MapAttrs = {
+            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
+            0x7f01000f, 0x7f010010
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#cameraBearing}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:cameraBearing
+        */
+        public static final int MapAttrs_cameraBearing = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#cameraTargetLat}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:cameraTargetLat
+        */
+        public static final int MapAttrs_cameraTargetLat = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#cameraTargetLng}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:cameraTargetLng
+        */
+        public static final int MapAttrs_cameraTargetLng = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#cameraTilt}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:cameraTilt
+        */
+        public static final int MapAttrs_cameraTilt = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#cameraZoom}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:cameraZoom
+        */
+        public static final int MapAttrs_cameraZoom = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#mapType}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name com.solitondesignlab.galvanize:mapType
+        */
+        public static final int MapAttrs_mapType = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#uiCompass}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:uiCompass
+        */
+        public static final int MapAttrs_uiCompass = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#uiRotateGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:uiRotateGestures
+        */
+        public static final int MapAttrs_uiRotateGestures = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#uiScrollGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:uiScrollGestures
+        */
+        public static final int MapAttrs_uiScrollGestures = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#uiTiltGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:uiTiltGestures
+        */
+        public static final int MapAttrs_uiTiltGestures = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#uiZoomControls}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:uiZoomControls
+        */
+        public static final int MapAttrs_uiZoomControls = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#uiZoomGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:uiZoomGestures
+        */
+        public static final int MapAttrs_uiZoomGestures = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#useViewLifecycle}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:useViewLifecycle
+        */
+        public static final int MapAttrs_useViewLifecycle = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.solitondesignlab.galvanize.R.attr#zOrderOnTop}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.solitondesignlab.galvanize:zOrderOnTop
+        */
+        public static final int MapAttrs_zOrderOnTop = 13;
+    };
 }

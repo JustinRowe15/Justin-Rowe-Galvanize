@@ -40,6 +40,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -114,15 +115,13 @@ public class GalvanizeFragment extends Fragment {
         	}
         });
         
-        Log.i("GETTING CONNECTION INFO", "CONNECTING");
         ConnectivityManager connMgr = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
         if (networkInfo != null && networkInfo.isConnected()) {
-        	Log.i("GETTING CONNECTION", "CONNECTED");
         	DownloadTweets dl = new DownloadTweets();
         	dl.execute(SCREEN_NAME);
         } else {
-        	Log.i("GETTING CONNECTION", "NOT CONNECTED");
+        	Toast.makeText(getActivity(),"Network connection not available.",Toast.LENGTH_SHORT).show();
         }
         
         return rootView;
@@ -136,7 +135,6 @@ public class GalvanizeFragment extends Fragment {
 
 		@Override
 		protected String doInBackground(String... screenNames) {
-			Log.i("DOWNLOAD TWEETS", "DO IN BACKGROUND");
 			String response = null;
 			if (screenNames.length > 0) {
 			response = getTwitterStream(screenNames[0]);
@@ -145,7 +143,6 @@ public class GalvanizeFragment extends Fragment {
 		}
 		
 		protected void onPostExecute(String response){
-			Log.i("URL RESPONSE", response);
 			try{
                 JSONArray json = new JSONArray(response);
                 int j = json.length();
@@ -170,14 +167,12 @@ public class GalvanizeFragment extends Fragment {
 	    		String apiKey = URLEncoder.encode(CONSUMER_KEY, "UTF-8");
 	    		String apiSecret = URLEncoder.encode(CONSUMER_SECRET, "UTF-8");
 	    		String apiString = apiKey + ":" + apiSecret;
-	    		Log.i("URL RESPONSE", apiString);
 	    		String base64Encoded = Base64.encodeToString(apiString.getBytes(), Base64.NO_WRAP);
 	    		HttpPost httpPost = new HttpPost(TWITTER_TOKEN_URL);
                 httpPost.setHeader("Authorization", "Basic " + base64Encoded);
                 httpPost.setHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
                 httpPost.setEntity(new StringEntity("grant_type=client_credentials"));
                 String rawAuthorization = getResponseBody(httpPost);
-                Log.i("AUTHORIZATION RESPONSE", rawAuthorization);
                 TwitterAuthentication auth = jsonToAuthenticated(rawAuthorization);
                 if (auth != null && auth.token_type.equals("bearer")) {
                     HttpGet httpGet = new HttpGet(TWITTER_STREAM_URL + screenName + "&include_rts=false&count=4");
@@ -198,7 +193,6 @@ public class GalvanizeFragment extends Fragment {
                 HttpResponse response = httpClient.execute(request);
                 int statusCode = response.getStatusLine().getStatusCode();
                 String reason = response.getStatusLine().getReasonPhrase();
-                Log.i("GET RESPONSE BODY", reason);
                 if (statusCode == 200) {
                 	HttpEntity entity = response.getEntity();
                 	InputStream inputStream = entity.getContent();
